@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-around",
+          justifyContent: "space-between",
           flexWrap: "wrap",
           marginTop: "18px",
           marginBottom: "32px"
