@@ -40,6 +40,13 @@ export default function Skills() {
             alt="Icono React Lenguaje de Programación"
           />
         </div>
+        <div className="circular-skill">
+          <img
+            className="b-skill-img"
+            src={require("./images/github-icon.png")}
+            alt="Icono Github"
+          />
+        </div>
       </div>
     </div>
   );
