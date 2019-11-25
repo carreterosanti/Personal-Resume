@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./components-style.css";
 
 export default function Educacion() {
+  const [showListadoMaterias, setShowListadoMaterias] = useState(false);
+
+  function controllShowListadoMaterias() {
+    setShowListadoMaterias(prevState => {
+      return !showListadoMaterias;
+    });
+  }
+
   return (
     <div className="middle-section">
       <h2>Educación</h2>
@@ -21,6 +29,7 @@ export default function Educacion() {
           style={{ height: "30px", width: "30px", marginLeft: "25px" }}
           src={require("./images/check-list-icon.png")}
           alt="Brochure Icon"
+          onClick={controllShowListadoMaterias}
         />
       </div>
 

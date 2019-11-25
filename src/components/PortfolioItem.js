@@ -2,6 +2,14 @@ import React from "react";
 import "./components-style.css";
 
 export default function PortfolioItem(props) {
+  const iconosTecnologias = props.urlTecnologias.map(element => (
+    <img
+      className="s-skill-img"
+      src={require("./images/" + element.toString())}
+      alt="Icono Java Lenguaje de Programación"
+    />
+  ));
+
   return (
     <div className="portfolio-item-card">
       <div className="portfolio-item-img">
@@ -26,27 +34,7 @@ export default function PortfolioItem(props) {
           marginBottom: "16px"
         }}
       >
-        <img
-          className="s-skill-img"
-          src={require("./images/java-icon.png")}
-          alt="Icono Java Lenguaje de Programación"
-        />
-
-        <img
-          className="s-skill-img"
-          src={require("./images/css-icon.png")}
-          alt="Icono CSS Lenguaje de Programación"
-        />
-        <img
-          className="s-skill-img"
-          src={require("./images/js-icon.png")}
-          alt="Icono JavaScript Lenguaje de Programación"
-        />
-        <img
-          className="s-skill-img"
-          src={require("./images/react-icon.png")}
-          alt="Icono React Lenguaje de Programación"
-        />
+        {iconosTecnologias}
       </div>
     </div>
   );

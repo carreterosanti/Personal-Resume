@@ -19,18 +19,21 @@ export default function Portfolio() {
           titulo="Reciclaje Tandil Android App"
           src={require("./images/reciclados-tandil-app.png")}
           alt="Capturas de pantalla correspondientes a la aplicacion para Android: Reciclados Tandil App"
+          urlTecnologias={["android-icon.png", "java-icon.png"]}
         />
 
         <PortfolioItem
           titulo="Rediseño Web Bac Mono"
           src={require("./images/redesign-web-bac-mono.png")}
           alt="Capturas de pantalla correspondientes a la aplicacion para Android: Reciclados Tandil App"
+          urlTecnologias={["react-icon.png", "js-icon.png", "css-icon.png"]}
         />
 
         <PortfolioItem
           titulo="Reemplazo de Smartphone"
           src={require("./images/reemplazo-de-smartphones.png")}
           alt="Capturas de pantalla correspondientes a la aplicacion para Android: Reciclados Tandil App"
+          urlTecnologias={["java-icon.png", "java-fx-icon.png"]}
         />
       </div>
     </div>
