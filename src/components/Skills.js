@@ -18,14 +18,14 @@ export default function Skills() {
       nivel: "49"
     },
     {
-      imgSkill: "github-icon.png",
-      alt: "Icono Github",
-      nivel: "55"
-    },
-    {
       imgSkill: "react-icon.png",
       alt: "Icono React Lenguaje de Programación",
       nivel: "49"
+    },
+    {
+      imgSkill: "github-icon.png",
+      alt: "Icono Github",
+      nivel: "55"
     }
   ];
 
@@ -51,6 +51,8 @@ export default function Skills() {
           display: "flex",
           alignItems: "center",
           alignContent: "space-around",
+          justifyContent: "space-around",
+          flexWrap: "wrap",
           marginTop: "16px"
         }}
       >
