@@ -5,7 +5,7 @@ export default function PortfolioItem(props) {
   const iconosTecnologias = props.urlTecnologias.map(element => (
     <img
       className="s-skill-img"
-      src={require("./images/" + element.toString())}
+      src={require("./images/" + element)}
       alt="Icono Java Lenguaje de Programación"
     />
   ));

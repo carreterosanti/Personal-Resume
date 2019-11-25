@@ -81,13 +81,34 @@ h3 {
   margin: 0px;
 }
 
-.circular-skill {
-  border-radius: 50%;
-  width: fit-content;
-  height: fit-content;
-  background: white;
-  padding: 15px;
-  border: 15px solid blue;
+.svg-skills {
+  transform: scaleX(-1) rotate(-90deg);
+  fill: white;
+}
+
+.svg-image {
+  transform: rotate(90deg) translate(0, -100%) translate(100%, 0) scale(-1, 1);
+  x: 50;
+  y: 50;
+  height: 100px;
+  width: 100px;
+}
+
+.progress-bar {
+  cx: 100;
+  cy: 100;
+  r: 70;
+  stroke: #0277bd;
+  stroke-width: 12;
+}
+
+.circular-background {
+  stroke-dasharray: 314.1592%;
+  cx: 100;
+  cy: 100;
+  r: 70;
+  stroke: white;
+  stroke-width: 13;
 }
 
 .portfolio-item-img {
