@@ -13,6 +13,7 @@ h3 {
   font-size: 25px;
   font-weight: 450;
   margin-bottom: 0px;
+  text-decoration: underline;
 }
 
 .profile-image {
@@ -84,31 +85,34 @@ h3 {
 .svg-skills {
   transform: scaleX(-1) rotate(-90deg);
   fill: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 15px;
 }
 
 .svg-image {
   transform: rotate(90deg) translate(0, -100%) translate(100%, 0) scale(-1, 1);
-  x: 50;
-  y: 50;
+  x: 30;
+  y: 30;
   height: 100px;
   width: 100px;
 }
 
 .progress-bar {
-  cx: 100;
-  cy: 100;
-  r: 70;
-  stroke: #0277bd;
-  stroke-width: 12;
+  cx: 80;
+  cy: 80;
+  r: 80;
+  stroke-width: 25;
 }
 
 .circular-background {
   stroke-dasharray: 314.1592%;
-  cx: 100;
-  cy: 100;
-  r: 70;
+  cx: 80;
+  cy: 80;
+  r: 50;
   stroke: white;
-  stroke-width: 13;
+  stroke-width: 70;
 }
 
 .portfolio-item-img {
@@ -140,6 +144,12 @@ h3 {
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.flex-start-center {
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
 }
 
 .display-block {

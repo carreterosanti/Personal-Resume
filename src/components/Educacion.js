@@ -13,14 +13,8 @@ export default function Educacion() {
   return (
     <div className="middle-section">
       <h2>Educación</h2>
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          marginTop: "",
-          alignContent: "flex-start"
-        }}
-      >
+      <br />
+      <div className="flex-start-center">
         <p style={{ fontSize: "18px" }}>
           <strong>Ingeniería de Sistemas</strong> - Universidad Nacional del
           Centro de la Provincia de Buenos Aires

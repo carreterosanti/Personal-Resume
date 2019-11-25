@@ -7,7 +7,7 @@ export default function ListadoMaterias(props) {
 
   return (
     <div className="modal">
-      <div className="modal-content"></div>
+      <div className="modal-content">Hola</div>
     </div>
   );
 }
