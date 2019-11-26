@@ -1,7 +1,7 @@
 import React from "react";
 import "./components-style.css";
 
-export default function NavBar() {
+export default function NavBar(props) {
   return (
     <div className="main-nav-bar-div">
       <div className="main-name-div">
@@ -15,6 +15,7 @@ export default function NavBar() {
         className="profile-image"
         src="https://avatars2.githubusercontent.com/u/20425026?s=400&v=4"
         alt="Profile picture."
+        onClick={props.setDarkMode}
       />
     </div>
   );

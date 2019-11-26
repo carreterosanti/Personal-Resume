@@ -1,7 +1,7 @@
 import React from "react";
 import "./components-style.css";
 
-export default function Perfil() {
+export default function Perfil(props) {
   return (
     <div className="top-section">
       <h2>Perfil</h2>
@@ -14,6 +14,9 @@ export default function Perfil() {
         Linux Server setup/administration. Takes the form part in automating,
         supporting and to ensure CI/CD in product developing.
       </p>
+      <div
+        className={props.darkMode ? "dark-break-line" : "light-break-line"}
+      ></div>
     </div>
   );
 }

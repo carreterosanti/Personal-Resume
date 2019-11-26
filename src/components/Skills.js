@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Skills() {
+export default function Skills(props) {
   const listadoSkill = [
     {
       imgSkill: "java-icon.png",
@@ -63,6 +63,9 @@ export default function Skills() {
       >
         {iconosSkills}
       </div>
+      <div
+        className={props.darkMode ? "dark-break-line" : "light-break-line"}
+      ></div>
     </div>
   );
 }
