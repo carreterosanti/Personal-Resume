@@ -141,8 +141,8 @@ h3 {
 .progress-bar {
   cx: 80;
   cy: 80;
-  r: 80;
-  stroke-width: 25;
+  r: 74.5;
+  stroke-width: 10;
 }
 
 .circular-background {

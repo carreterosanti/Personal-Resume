@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
@@ -9,7 +9,22 @@ import Portafolio from "./components/Portafolio";
 import Certificados from "./components/Certificados";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(getInitialMode());
+
+  useEffect(() => {
+    localStorage.setItem("dark", JSON.stringify(darkMode));
+  }, [darkMode]);
+
+  function getInitialMode() {
+    const savedMode = JSON.parse(localStorage.getItem("dark"));
+    return savedMode || false;
+  }
+
+  function getPrefColorScheme() {
+    if (!window.matchMedia) return;
+
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  }
 
   const setMode = () => {
     console.log("entro");
