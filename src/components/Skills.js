@@ -27,10 +27,12 @@ export default function Skills(props) {
       color: "#00D8FF"
     },
     {
-      imgSkill: "github-icon.png",
+      imgSkill: props.darkMode
+        ? "dark-mode-github-icon.png"
+        : "github-icon.png",
       alt: "Icono Github",
       nivel: "70",
-      color: "#24292E"
+      color: props.darkMode ? "#F7F7F7" : "#24292E"
     }
   ];
 
