@@ -9,6 +9,7 @@ import Portafolio from "./components/Portafolio";
 import Certificados from "./components/Certificados";
 import ExperienciaLaboral from "./components/ExperienciaLaboral";
 import Intereses from "./components/Intereses";
+import InformacionPie from "./components/InformacionPie";
 
 function App() {
   const [darkMode, setDarkMode] = useState(getInitialMode());
@@ -43,6 +44,7 @@ function App() {
       <Portafolio darkMode={darkMode} />
       <ExperienciaLaboral darkMode={darkMode} />
       <Intereses darkMode={darkMode} />
+      <InformacionPie />
     </div>
   );
 }

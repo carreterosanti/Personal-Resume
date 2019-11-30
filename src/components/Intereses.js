@@ -27,6 +27,12 @@ export default function Intereses(props) {
         ? "dark-mode-coffee-icon.png"
         : "coffee-icon.png",
       label: "Café"
+    },
+    {
+      srcInteresImg: props.darkMode
+        ? "dark-mode-photography-icon.png"
+        : "photography-icon.png",
+      label: "Fotografía"
     }
   ];
 
@@ -54,15 +60,12 @@ export default function Intereses(props) {
         style={{
           display: "flex",
           justifyContent: "space-evenly",
-          marginTop: "20px"
+          marginTop: "20px",
+          marginBottom: "40px"
         }}
       >
         {iconosIntereses}
       </div>
-
-      <div
-        className={props.darkMode ? "dark-break-line" : "light-break-line"}
-      ></div>
     </div>
   );
 }

@@ -55,6 +55,17 @@ h3 {
   margin: 0px 75px 0px 75px;
 }
 
+.bottom-section {
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+  background-color: #111010;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 65px;
+}
+
 .light-break-line {
   height: 1px;
   width: 100%;
@@ -272,6 +283,15 @@ h3 {
 
 .interes-icon {
   width: 50px;
+}
+
+.bottom-icon {
+  width: 32px;
+  margin: 0px 10px;
+}
+
+.m-bottom-icon {
+  width: 32px;
 }
 
 .display-block {
