@@ -259,6 +259,21 @@ h3 {
   align-content: flex-start;
 }
 
+.work-experience-div {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.work-experience-icon {
+  width: 100%;
+  min-width: 130px;
+}
+
+.interes-icon {
+  width: 100px;
+}
+
 .display-block {
   display: block;
 }

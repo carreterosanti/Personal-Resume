@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Portafolio from "./components/Portafolio";
 import Certificados from "./components/Certificados";
 import ExperienciaLaboral from "./components/ExperienciaLaboral";
+import Intereses from "./components/Intereses";
 
 function App() {
   const [darkMode, setDarkMode] = useState(getInitialMode());
@@ -41,6 +42,7 @@ function App() {
       <Certificados darkMode={darkMode} />
       <Portafolio darkMode={darkMode} />
       <ExperienciaLaboral darkMode={darkMode} />
+      <Intereses darkMode={darkMode} />
     </div>
   );
 }
