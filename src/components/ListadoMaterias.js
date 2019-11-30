@@ -1,5 +1,9 @@
 import React from "react";
-import { listadoMaterias, listadoOptativas } from "./data-materias";
+import {
+  listadoMaterias,
+  listadoOptativas,
+  listadoReferencias
+} from "./data-materias";
 
 export default function ListadoMaterias(props) {
   const colorPorCondicion = condicion => {
@@ -34,6 +38,19 @@ export default function ListadoMaterias(props) {
         }}
       ></div>
       <p style={{ fontSize: "18px" }}>{element.nombreMateria}</p>
+    </div>
+  ));
+
+  const listaReferencias = listadoReferencias.map(element => (
+    <div className="div-item-referencia">
+      <div
+        className="circulo-condicion-materia-small"
+        style={{
+          backgroundColor: colorPorCondicion(element.condicion),
+          flex: "1"
+        }}
+      ></div>
+      <p style={{ fontSize: "12px" }}>{element.nombreMateria}</p>
     </div>
   ));
 
@@ -75,6 +92,10 @@ export default function ListadoMaterias(props) {
             <h3 className="h3-sub-titulo">Optativas</h3>
             <div className="div-listado-materias">{listaOptativas}</div>
           </div>
+          <div
+            className={props.darkMode ? "dark-break-line" : "light-break-line"}
+          ></div>
+          <div className="div-listado-referencias">{listaReferencias}</div>
         </div>
       </div>
     </div>

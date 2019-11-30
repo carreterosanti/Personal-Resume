@@ -2,7 +2,7 @@ import React from "react";
 import PortfolioItem from "./PortfolioItem";
 import "./components-style.css";
 
-export default function Portfolio() {
+export default function Portfolio(props) {
   return (
     <div className="middle-section">
       <h2>Portafolio</h2>
@@ -36,6 +36,9 @@ export default function Portfolio() {
           urlTecnologias={["java-icon.png", "java-fx-icon.png"]}
         />
       </div>
+      <div
+        className={props.darkMode ? "dark-break-line" : "light-break-line"}
+      ></div>
     </div>
   );
 }

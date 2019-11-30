@@ -176,3 +176,22 @@ export const listadoOptativas = [
     condicion: "Aprobada pasada"
   }
 ];
+
+export const listadoReferencias = [
+  {
+    nombreMateria: "Cursada y final aprobadas",
+    condicion: "Aprobada pasada"
+  },
+  {
+    nombreMateria: "Cursada y final aprobadas, pendientes de pasar la nota",
+    condicion: "Aprobada a pasar"
+  },
+  {
+    nombreMateria: "Final pendiente",
+    condicion: "Final restante"
+  },
+  {
+    nombreMateria: "Cursada pendiente",
+    condicion: "Cursada restante"
+  }
+];
