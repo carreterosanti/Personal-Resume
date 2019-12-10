@@ -27,6 +27,12 @@ export default function Skills(props) {
       color: "#00D8FF"
     },
     {
+      imgSkill: "android-icon.png",
+      alt: "Icono Android",
+      nivel: "75",
+      color: "#3ddc84"
+    },
+    {
       imgSkill: props.darkMode
         ? "dark-mode-github-icon.png"
         : "github-icon.png",

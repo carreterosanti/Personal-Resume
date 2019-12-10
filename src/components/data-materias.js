@@ -113,7 +113,7 @@ export const listadoMaterias = [
   },
   {
     nombreMateria: "Diseño de Sistemas de Software",
-    condicion: "Aprobada a pasar"
+    condicion: "Aprobada pasada"
   },
   {
     nombreMateria: "Ingeniería de Software",
@@ -152,7 +152,7 @@ export const listadoOptativas = [
   },
   {
     nombreMateria: "Organización Empresarial",
-    condicion: "Aprobada a pasar"
+    condicion: "Aprobada pasada"
   },
   {
     nombreMateria: "Introduccion a la Programacion de Dispositivos Moviles",
