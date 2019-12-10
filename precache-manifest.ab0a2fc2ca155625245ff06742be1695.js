@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f87876550be9dc0af8925cd05f1cbe2a",
+    "revision": "2f9713050cbfd601ea13ac9d9ab3d344",
     "url": "/Personal-Resume/index.html"
   },
   {
-    "revision": "9e38c27915b7ee117d77",
+    "revision": "bb98c876451c1743897e",
     "url": "/Personal-Resume/static/css/main.35a6ab6d.chunk.css"
   },
   {
@@ -12,12 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Resume/static/js/2.b73c969b.chunk.js"
   },
   {
-    "revision": "9e38c27915b7ee117d77",
-    "url": "/Personal-Resume/static/js/main.a586bde3.chunk.js"
+    "revision": "bb98c876451c1743897e",
+    "url": "/Personal-Resume/static/js/main.e9d64c63.chunk.js"
   },
   {
     "revision": "2e32689c6960b28f20d7",
     "url": "/Personal-Resume/static/js/runtime-main.2fb2f14b.js"
+  },
+  {
+    "revision": "e0fb0b16cdb4bd9aeff6abeb5230f21a",
+    "url": "/Personal-Resume/static/media/android-icon.e0fb0b16.png"
   },
   {
     "revision": "c1323353e37944147f5123f794261180",
