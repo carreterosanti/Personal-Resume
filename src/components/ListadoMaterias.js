@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "./Modal";
 import {
   listadoMaterias,
   listadoOptativas,
@@ -54,50 +55,30 @@ export default function ListadoMaterias(props) {
     </div>
   ));
 
-  const showHideClassName = props.show
-    ? "modal display-block"
-    : "modal display-none";
-
-  console.log("Entro al listado de Materias", showHideClassName);
+  const contenidoListadoMaterias = (
+    <div>
+      <div>
+        <h3 className="h3-sub-titulo">Materias</h3>
+        <div className="div-listado-materias">{listaMaterias}</div>
+      </div>
+      <div style={{ marginTop: "20px" }}>
+        <h3 className="h3-sub-titulo">Optativas</h3>
+        <div className="div-listado-materias">{listaOptativas}</div>
+      </div>
+      <div
+        className={props.darkMode ? "dark-break-line" : "light-break-line"}
+      ></div>
+      <div className="div-listado-referencias">{listaReferencias}</div>
+    </div>
+  );
 
   return (
-    <div className={showHideClassName}>
-      <div
-        className={
-          props.darkMode
-            ? "modal-content dark-mode"
-            : "modal-content light-mode"
-        }
-      >
-        <div className="top-div-model">
-          <h3 style={{ marginTop: "0px" }}>Ingeniería de Sistemas</h3>
-          <img
-            style={{
-              height: "25px",
-              width: "25px"
-            }}
-            src={require(props.darkMode
-              ? "./images/dark-mode-close-icon.png"
-              : "./images/close-icon.png")}
-            alt="Boton para cerrar ventana"
-            onClick={props.closeControl}
-          />
-        </div>
-        <div style={{ overflowY: "scroll", padding: "20px", maxWidth: "100%" }}>
-          <div>
-            <h3 className="h3-sub-titulo">Materias</h3>
-            <div className="div-listado-materias">{listaMaterias}</div>
-          </div>
-          <div style={{ marginTop: "20px" }}>
-            <h3 className="h3-sub-titulo">Optativas</h3>
-            <div className="div-listado-materias">{listaOptativas}</div>
-          </div>
-          <div
-            className={props.darkMode ? "dark-break-line" : "light-break-line"}
-          ></div>
-          <div className="div-listado-referencias">{listaReferencias}</div>
-        </div>
-      </div>
-    </div>
+    <Modal
+      darkMode={props.darkMode}
+      title="Ingenieria de Sistemas"
+      content={contenidoListadoMaterias}
+      show={props.show}
+      closeControl={props.closeControl}
+    />
   );
 }

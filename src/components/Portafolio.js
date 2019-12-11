@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import PortfolioItem from "./PortfolioItem";
 import "./components-style.css";
 
 export default function Portfolio(props) {
+  const [showInfoProyecto, setInfoProyecto] = useState(false);
+
+  function controllShowInfoProyecto() {
+    setInfoProyecto(prevState => {
+      return !prevState;
+    });
+  }
+
   return (
     <div className="middle-section">
       <h2>Portafolio</h2>

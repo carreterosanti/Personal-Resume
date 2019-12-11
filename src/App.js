@@ -23,14 +23,7 @@ function App() {
     return savedMode || false;
   }
 
-  function getPrefColorScheme() {
-    if (!window.matchMedia) return;
-
-    return window.matchMedia("(prefers-color-scheme: dark)").matches;
-  }
-
   const setMode = () => {
-    console.log("entro");
     setDarkMode(prevMode => !prevMode);
   };
 
