@@ -117,18 +117,18 @@ export const listadoMaterias = [
   },
   {
     nombreMateria: "Ingeniería de Software",
-    condicion: "Aprobada a pasar"
+    condicion: "Aprobada pasada"
   },
   {
-    nombreMateria: "Diseño de Compiladores I",
-    condicion: "Final restante"
+    nombreMateria: "Lenguajes de Programación I",
+    condicion: "Aprobada pasada"
   },
   {
     nombreMateria: "Teoría de la Información",
     condicion: "Final restante"
   },
   {
-    nombreMateria: "Lenguajes de Programación I",
+    nombreMateria: "Diseño de Compiladores I",
     condicion: "Final restante"
   },
   {
@@ -148,7 +148,7 @@ export const listadoOptativas = [
   },
   {
     nombreMateria: "Fundamentos de Economía y Proyectos de Inversión",
-    condicion: "Aprobada a pasar"
+    condicion: "Aprobada pasada"
   },
   {
     nombreMateria: "Organización Empresarial",
@@ -195,3 +195,46 @@ export const listadoReferencias = [
     condicion: "Cursada restante"
   }
 ];
+
+export const wavesReciclajeTandil = [
+  {
+    d: "m 200 0 c -70,30 -350,40 0,200 ",
+    idGradiente: "gradiente1",
+    coloresGradientes: ["#151d30", "#1c2c43", "#273951"]
+  },
+  {
+    d: "m 200 50 c 0,100 -350,60 0,180",
+    idGradiente: "gradiente2",
+    coloresGradientes: ["#139d8d", "#139d8d", "#36ec7e"]
+  },
+  {
+    d: " m 200 10 c -100,40 -100,30  0,80 ",
+    idGradiente: "gradiente3",
+    coloresGradientes: ["#ffa601", "#ff7d43", "#f95d6a", "#d55087", "#a05095"]
+  }
+];
+
+export const wavesRedisenoWebBacMono = [
+  {
+    d: "m 200 0 c -70,30 -350,40 0,200 ",
+    idGradiente: "gradiente1",
+    coloresGradientes: ["#151d30", "#1c2c43", "#273951"]
+  },
+  {
+    d: "m 200 50 c 0,100 -350,60 0,180",
+    idGradiente: "gradiente2",
+    coloresGradientes: ["#139d8d", "#139d8d", "#36ec7e"]
+  }
+];
+
+export const portfolioReciclajeTandil = {
+  titulo: "Reciclaje Tandil Android App",
+  urlTecnologias: ["android-icon.png", "java-icon.png"],
+  wave: wavesReciclajeTandil
+};
+
+export const portfolioRedisenoWebBacMono = {
+  titulo: "Rediseño Web Bac Mono",
+  urlTecnologias: ["react-icon.png", "js-icon.png", "css-icon.png"],
+  wave: wavesRedisenoWebBacMono
+};

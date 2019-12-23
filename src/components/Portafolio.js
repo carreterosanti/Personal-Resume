@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import PortfolioItem from "./PortfolioItem";
 import "./components-style.css";
+import {
+  portfolioReciclajeTandil,
+  portfolioRedisenoWebBacMono
+} from "./data-materias.js";
 
 export default function Portfolio(props) {
   const [showInfoProyecto, setInfoProyecto] = useState(false);
@@ -17,6 +21,7 @@ export default function Portfolio(props) {
       <div
         style={{
           display: "flex",
+          flexDirection: "column",
           justifyContent: "space-between",
           flexWrap: "wrap",
           marginTop: "18px",
@@ -24,17 +29,17 @@ export default function Portfolio(props) {
         }}
       >
         <PortfolioItem
-          titulo="Reciclaje Tandil Android App"
-          src={require("./images/reciclados-tandil-app.png")}
-          alt="Capturas de pantalla correspondientes a la aplicacion para Android: Reciclados Tandil App"
-          urlTecnologias={["android-icon.png", "java-icon.png"]}
+          titulo={portfolioReciclajeTandil.titulo}
+          urlTecnologias={portfolioReciclajeTandil.urlTecnologias}
+          darkMode={props.darkMode}
+          wave={portfolioReciclajeTandil.wave}
         />
 
         <PortfolioItem
-          titulo="Rediseño Web Bac Mono"
-          src={require("./images/redesign-web-bac-mono.png")}
-          alt="Capturas de pantalla correspondientes a la aplicacion para Android: Reciclados Tandil App"
-          urlTecnologias={["react-icon.png", "js-icon.png", "css-icon.png"]}
+          titulo={portfolioRedisenoWebBacMono.titulo}
+          urlTecnologias={portfolioRedisenoWebBacMono.urlTecnologias}
+          darkMode={props.darkMode}
+          wave={portfolioRedisenoWebBacMono.wave}
         />
 
         <PortfolioItem
@@ -42,6 +47,8 @@ export default function Portfolio(props) {
           src={require("./images/reemplazo-de-smartphones.png")}
           alt="Capturas de pantalla correspondientes a la aplicacion para Android: Reciclados Tandil App"
           urlTecnologias={["java-icon.png", "java-fx-icon.png"]}
+          darkMode={props.darkMode}
+          wave={portfolioReciclajeTandil.wave}
         />
       </div>
       <div
