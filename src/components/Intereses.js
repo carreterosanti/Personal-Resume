@@ -42,7 +42,8 @@ export default function Intereses(props) {
         display: "flex",
         justifyContent: "center",
         flexDirection: "column",
-        alignItems: "center"
+        alignItems: "center",
+        margin: "15px"
       }}
     >
       <img
@@ -61,7 +62,8 @@ export default function Intereses(props) {
           display: "flex",
           justifyContent: "space-evenly",
           marginTop: "20px",
-          marginBottom: "40px"
+          marginBottom: "40px",
+          flexWrap: "wrap"
         }}
       >
         {iconosIntereses}
