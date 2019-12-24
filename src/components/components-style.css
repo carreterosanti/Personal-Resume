@@ -67,7 +67,7 @@ h3 {
 }
 
 .light-break-line {
-  height: 1px;
+  min-height: 1px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.075);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.075);
@@ -76,7 +76,7 @@ h3 {
 }
 
 .dark-break-line {
-  height: 1px;
+  min-height: 1px;
   width: 100%;
   background-color: #f7f7f7;
   box-shadow: 0 2px 4px 0 #f7f7f7;

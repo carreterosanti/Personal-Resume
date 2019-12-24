@@ -28,6 +28,10 @@ export default function Modal(props) {
             onClick={props.closeControl}
           />
         </div>
+        <div
+          style={{ margin: "0px" }}
+          className={props.darkMode ? "dark-break-line" : "light-break-line"}
+        ></div>
         <div style={{ overflowY: "scroll", padding: "20px", maxWidth: "100%" }}>
           {props.content}
         </div>
