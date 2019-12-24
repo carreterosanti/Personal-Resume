@@ -43,11 +43,7 @@ export default function Skills(props) {
   ];
 
   const iconosSkills = listadoSkill.map(element => (
-    <svg
-      className={props.darkMode ? "dark-mode-svg-skills" : "svg-skills"}
-      width="160"
-      height="160"
-    >
+    <svg className={props.darkMode ? "dark-mode-svg-skills" : "svg-skills"}>
       <circle className="progress-bar" stroke={element.color} />
       <circle
         className={

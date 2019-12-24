@@ -3,7 +3,8 @@ import PortfolioItem from "./PortfolioItem";
 import "./components-style.css";
 import {
   portfolioReciclajeTandil,
-  portfolioRedisenoWebBacMono
+  portfolioRedisenoWebBacMono,
+  portfolioReemplazoDeSmartphone
 } from "./data-materias.js";
 
 export default function Portfolio(props) {
@@ -21,7 +22,6 @@ export default function Portfolio(props) {
       <div
         style={{
           display: "flex",
-          flexDirection: "column",
           justifyContent: "space-between",
           flexWrap: "wrap",
           marginTop: "18px",
@@ -43,12 +43,10 @@ export default function Portfolio(props) {
         />
 
         <PortfolioItem
-          titulo="Reemplazo de Smartphone"
-          src={require("./images/reemplazo-de-smartphones.png")}
-          alt="Capturas de pantalla correspondientes a la aplicacion para Android: Reciclados Tandil App"
+          titulo={portfolioReemplazoDeSmartphone.titulo}
           urlTecnologias={["java-icon.png", "java-fx-icon.png"]}
           darkMode={props.darkMode}
-          wave={portfolioReciclajeTandil.wave}
+          wave={portfolioReemplazoDeSmartphone.wave}
         />
       </div>
       <div

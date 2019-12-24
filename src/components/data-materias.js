@@ -208,7 +208,7 @@ export const wavesReciclajeTandil = [
     coloresGradientes: ["#139d8d", "#139d8d", "#36ec7e"]
   },
   {
-    d: " m 200 10 c -100,40 -100,30  0,80 ",
+    d: "m 200 10 c -100,40 -100,30  0,80",
     idGradiente: "gradiente3",
     coloresGradientes: ["#ffa601", "#ff7d43", "#f95d6a", "#d55087", "#a05095"]
   }
@@ -216,14 +216,44 @@ export const wavesReciclajeTandil = [
 
 export const wavesRedisenoWebBacMono = [
   {
-    d: "m 200 0 c -70,30 -350,40 0,200 ",
-    idGradiente: "gradiente1",
-    coloresGradientes: ["#151d30", "#1c2c43", "#273951"]
+    d: "m 200 0 c -160,20 -350,120 0,200 ",
+    idGradiente: "gradiente4",
+    coloresGradientes: ["#dcdcdc", "#dcdcdc", "#c1c1c1"]
   },
   {
-    d: "m 200 50 c 0,100 -350,60 0,180",
-    idGradiente: "gradiente2",
-    coloresGradientes: ["#139d8d", "#139d8d", "#36ec7e"]
+    d: "m 200 -10 c -260,20 -225,0 0,80",
+    idGradiente: "gradiente5",
+    coloresGradientes: ["#000000", "#161616", "#2f2f2f"]
+  },
+  {
+    d: "m 200 40 c -30,40 -30,40  0,70",
+    idGradiente: "gradiente6",
+    coloresGradientes: ["#e40202", "#f8230d", "#e34539"]
+  },
+  {
+    d: "m 200 90 c -30,40 -30,40  0,70",
+    idGradiente: "gradiente7",
+    coloresGradientes: ["#a7977d", "#736551", "#473d2f"]
+  },
+  {
+    d: "m 200 140 c -30,40 -30,40  0,70",
+    idGradiente: "gradiente8",
+    coloresGradientes: ["#03a9f4", "#52c4f7", "#8bd8fc"]
+  }
+];
+
+export const wavesReemplazoDeSmartphone = [
+  {
+    d: "m 200 0 c -70,80 -380,30 0,200 ",
+    idGradiente: "gradiente9",
+    coloresGradientes: [
+      "#1ab99a",
+      "#1e9483",
+      "#22716c",
+      "#264b53",
+      "#253442",
+      "#22303d"
+    ]
   }
 ];
 
@@ -237,4 +267,10 @@ export const portfolioRedisenoWebBacMono = {
   titulo: "Rediseño Web Bac Mono",
   urlTecnologias: ["react-icon.png", "js-icon.png", "css-icon.png"],
   wave: wavesRedisenoWebBacMono
+};
+
+export const portfolioReemplazoDeSmartphone = {
+  titulo: "Reemplazo de Smartphone",
+  urlTecnologias: ["java-icon.png", "java-fx-icon.png"],
+  wave: wavesReemplazoDeSmartphone
 };
