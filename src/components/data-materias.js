@@ -257,6 +257,19 @@ export const wavesReemplazoDeSmartphone = [
   }
 ];
 
+export const wavesAlgoritmoDeTrazas = [
+  {
+    d: "m 200 0 c -70,80 -380,30 0,200 ",
+    idGradiente: "gradiente10",
+    coloresGradientes: ["#2C323A", "#353B46", "#3C424E", "#424855", "#474E5C"]
+  },
+  {
+    d: "m 200 50 c 0,100 -350,60 0,180",
+    idGradiente: "gradiente11",
+    coloresGradientes: ["#C66EC7", "#C176D2", "#BC7EDD", "#B787E9"]
+  }
+];
+
 export const portfolioReciclajeTandil = {
   titulo: "Reciclaje Tandil Android App",
   urlTecnologias: ["android-icon.png", "java-icon.png"],
@@ -273,4 +286,10 @@ export const portfolioReemplazoDeSmartphone = {
   titulo: "Reemplazo de Smartphone",
   urlTecnologias: ["java-icon.png", "java-fx-icon.png"],
   wave: wavesReemplazoDeSmartphone
+};
+
+export const portfolioAlgoritmoDeTrazas = {
+  titulo: "Algoritmo de Trazas",
+  urlTecnologias: ["java-icon.png", "angular-icon.png"],
+  wave: wavesAlgoritmoDeTrazas
 };

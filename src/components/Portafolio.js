@@ -4,7 +4,8 @@ import "./components-style.css";
 import {
   portfolioReciclajeTandil,
   portfolioRedisenoWebBacMono,
-  portfolioReemplazoDeSmartphone
+  portfolioReemplazoDeSmartphone,
+  portfolioAlgoritmoDeTrazas
 } from "./data-materias.js";
 
 export default function Portfolio(props) {
@@ -34,19 +35,23 @@ export default function Portfolio(props) {
           darkMode={props.darkMode}
           wave={portfolioReciclajeTandil.wave}
         />
-
         <PortfolioItem
           titulo={portfolioRedisenoWebBacMono.titulo}
           urlTecnologias={portfolioRedisenoWebBacMono.urlTecnologias}
           darkMode={props.darkMode}
           wave={portfolioRedisenoWebBacMono.wave}
         />
-
         <PortfolioItem
           titulo={portfolioReemplazoDeSmartphone.titulo}
-          urlTecnologias={["java-icon.png", "java-fx-icon.png"]}
+          urlTecnologias={portfolioReemplazoDeSmartphone.urlTecnologias}
           darkMode={props.darkMode}
           wave={portfolioReemplazoDeSmartphone.wave}
+        />
+        <PortfolioItem
+          titulo={portfolioAlgoritmoDeTrazas.titulo}
+          urlTecnologias={portfolioAlgoritmoDeTrazas.urlTecnologias}
+          darkMode={props.darkMode}
+          wave={portfolioAlgoritmoDeTrazas.wave}
         />
       </div>
       <div
