@@ -8,11 +8,12 @@ export default function InformacionPie() {
           display: "flex",
           alignItems: "center",
           alignContent: "center",
-          justifyContent: "center"
+          justifyContent: "center",
+          flexWrap: "wrap"
         }}
       >
         <img className="bottom-icon" src={require("./images/mail-icon.png")} />
-        <p style={{ color: "#f7f7f7" }}>santiago.carretero@outlook.com - </p>
+        <p style={{ color: "#f7f7f7" }}>santiago.carretero@outlook.com </p>
         <img
           className="bottom-icon"
           src={require("./images/linkedIn-icon.png")}

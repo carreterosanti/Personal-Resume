@@ -323,6 +323,14 @@ h3 {
   display: none;
 }
 
+.div-item-intereses {
+  display: "flex";
+  justify-content: "space-evenly";
+  margin-top: "20px";
+  margin-bottom: "40px";
+  flex-wrap: "wrap";
+}
+
 @media only screen and (max-width: 600px) {
   .profile-image {
     max-height: 150px;
@@ -362,7 +370,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0px 65px;
+    padding: 0px 40px;
   }
 
   h2 {

@@ -18,7 +18,7 @@ export default function ExperienciaLaboral(props) {
             and to ensure CI/CD in product developing.
           </p>
         </div>
-        <div style={{ flexGrow: 1, margin: "0px 60px" }}>
+        <div style={{ flexGrow: 1, margin: "0px 30px" }}>
           <img
             className="work-experience-icon"
             src={require(props.darkMode
