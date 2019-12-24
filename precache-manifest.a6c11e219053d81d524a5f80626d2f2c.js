@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c9f61e5c10b7b990a98ae617b9b9280",
+    "revision": "c12b59cd479047d67def84685096c0de",
     "url": "/Personal-Resume/index.html"
   },
   {
-    "revision": "208f2b151fe010e8ba7a",
+    "revision": "9d217853bf379cfbbbcc",
     "url": "/Personal-Resume/static/css/main.8197b3fc.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Resume/static/js/2.a0ea7895.chunk.js"
   },
   {
-    "revision": "208f2b151fe010e8ba7a",
-    "url": "/Personal-Resume/static/js/main.68da7f3f.chunk.js"
+    "revision": "9d217853bf379cfbbbcc",
+    "url": "/Personal-Resume/static/js/main.2a961a5c.chunk.js"
   },
   {
     "revision": "2e32689c6960b28f20d7",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e0fb0b16cdb4bd9aeff6abeb5230f21a",
     "url": "/Personal-Resume/static/media/android-icon.e0fb0b16.png"
+  },
+  {
+    "revision": "1a632d2b39f3275752f2c4b3c73477a3",
+    "url": "/Personal-Resume/static/media/angular-icon.1a632d2b.png"
   },
   {
     "revision": "c1323353e37944147f5123f794261180",
