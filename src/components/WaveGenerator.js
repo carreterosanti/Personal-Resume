@@ -18,7 +18,11 @@ export default function WaveGenerator(props) {
           />
         ))}
       </linearGradient>
-      <path fill={"url(#" + element.idGradiente + ")"} d={element.d}></path>
+      <path
+        fill={"url(#" + element.idGradiente + ")"}
+        fill-opacity="0.9"
+        d={element.d}
+      ></path>
     </>
   ));
 

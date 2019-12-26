@@ -2,6 +2,7 @@ import React from "react";
 import "./components-style.css";
 
 export default function Perfil(props) {
+  console.log(window.innerWidth);
   return (
     <div className="top-section">
       <h2>Perfil</h2>
