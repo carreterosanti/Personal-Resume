@@ -1,5 +1,4 @@
 import React from "react";
-import { BackHandler } from "react-native";
 
 export default function Modal(props) {
   const showHideClassName = props.show

@@ -7,13 +7,11 @@ export default function Perfil(props) {
     <div className="top-section">
       <h2>Perfil</h2>
       <p>
-        Ejemplo - During my job experience, I had practical skills with
-        interesting technologies, tasks, people. In the whole role of my
-        engineering practice include building and supporting web SaaS solutions
-        based on Linux/Unix platform in a cloud (AWS) and on-premise, experience
-        on server infrastructure migration, monitoring and securing, LAMP, and
-        Linux Server setup/administration. Takes the form part in automating,
-        supporting and to ensure CI/CD in product developing.
+        Estudiante avanzado de Ingeniería de Sistemas, abocado al diseño y
+        desarrollo front-end. De actitud proactiva para trabajar en equipo, con
+        atributos de abstraccion y enfoque en la composición de soluciones.
+        Desarrollador entusiasta de sistemas vanguardistas, atractivos,
+        intuitivos y funcionales.
       </p>
       <div
         className={props.darkMode ? "dark-break-line" : "light-break-line"}

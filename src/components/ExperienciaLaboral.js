@@ -28,7 +28,9 @@ export default function ExperienciaLaboral(props) {
           />
         </div>
       </div>
-
+      <p style={{ marginTop: "-12px", marginLeft: "6px", color: "grey" }}>
+        Diciembre 2017 - Marzo 2018
+      </p>
       <div
         className={props.darkMode ? "dark-break-line" : "light-break-line"}
       ></div>
