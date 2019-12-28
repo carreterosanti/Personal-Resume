@@ -32,24 +32,28 @@ export default function Portfolio(props) {
         <PortfolioItem
           titulo={portfolioReciclajeTandil.titulo}
           urlTecnologias={portfolioReciclajeTandil.urlTecnologias}
+          descripcion={portfolioReciclajeTandil.descripcion}
           darkMode={props.darkMode}
           wave={portfolioReciclajeTandil.wave}
         />
         <PortfolioItem
           titulo={portfolioRedisenoWebBacMono.titulo}
           urlTecnologias={portfolioRedisenoWebBacMono.urlTecnologias}
+          descripcion={portfolioRedisenoWebBacMono.descripcion}
           darkMode={props.darkMode}
           wave={portfolioRedisenoWebBacMono.wave}
         />
         <PortfolioItem
           titulo={portfolioReemplazoDeSmartphone.titulo}
           urlTecnologias={portfolioReemplazoDeSmartphone.urlTecnologias}
+          descripcion={portfolioReemplazoDeSmartphone.descripcion}
           darkMode={props.darkMode}
           wave={portfolioReemplazoDeSmartphone.wave}
         />
         <PortfolioItem
           titulo={portfolioAlgoritmoDeTrazas.titulo}
           urlTecnologias={portfolioAlgoritmoDeTrazas.urlTecnologias}
+          descripcion={portfolioAlgoritmoDeTrazas.descripcion}
           darkMode={props.darkMode}
           wave={portfolioAlgoritmoDeTrazas.wave}
         />

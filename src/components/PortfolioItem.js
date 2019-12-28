@@ -27,7 +27,7 @@ export default function PortfolioItem(props) {
         }}
       >
         <h3 className="portfolio-item-titulo">{props.titulo}</h3>
-        <p className="portfolio-item-descripcion">Descripcion del proyecto</p>
+        <p className="portfolio-item-descripcion">{props.descripcion}</p>
         <div
           style={{
             display: "flex",

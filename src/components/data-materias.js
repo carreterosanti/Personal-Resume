@@ -273,23 +273,31 @@ export const wavesAlgoritmoDeTrazas = [
 export const portfolioReciclajeTandil = {
   titulo: "Reciclaje Tandil Android App",
   urlTecnologias: ["android-icon.png", "java-icon.png"],
+  descripcion:
+    "Aplicacion Android que permite visualizar y administrar los elementos reciclados de un usuario",
   wave: wavesReciclajeTandil
 };
 
 export const portfolioRedisenoWebBacMono = {
   titulo: "Rediseño Web Bac Mono",
   urlTecnologias: ["react-icon.png", "js-icon.png", "css-icon.png"],
+  descripcion:
+    "Resideño del inicio de la pagina web correspondiente a la empresa britanica de fabricacion de superdeportivos BAC",
   wave: wavesRedisenoWebBacMono
 };
 
 export const portfolioReemplazoDeSmartphone = {
   titulo: "Reemplazo de Smartphone",
   urlTecnologias: ["java-icon.png", "java-fx-icon.png"],
+  descripcion:
+    "Aplicación de escritorio que ofrece al usuario sugerencias de reemplazo de su smartphone dado un presupuesto y prioridad de características indicadas por el usuario",
   wave: wavesReemplazoDeSmartphone
 };
 
 export const portfolioAlgoritmoDeTrazas = {
   titulo: "Algoritmo de Trazas",
   urlTecnologias: ["java-icon.png", "angular-icon.png"],
+  descripcion:
+    "Herramienta web que permite analizar la dependencia de datos a partir de un codigo fuente correspondiente a una iteración",
   wave: wavesAlgoritmoDeTrazas
 };
