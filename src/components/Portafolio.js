@@ -14,9 +14,7 @@ export default function Portfolio(props) {
     linkRepositorioInfoProyecto,
     setlinkRepositorioInfoProyecto
   ] = useState();
-  const [imagenInfoProyecto, setImagenInfoProyecto] = useState(
-    "./images/recicladosTandilScreenshot1.png"
-  );
+  const [imagenInfoProyecto, setImagenInfoProyecto] = useState([]);
 
   function controllInfoProyecto(
     titulo,

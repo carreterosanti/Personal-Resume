@@ -327,11 +327,34 @@ h3 {
 }
 
 .div-item-intereses {
-  display: "flex";
-  justify-content: "space-evenly";
-  margin-top: "20px";
-  margin-bottom: "40px";
-  flex-wrap: "wrap";
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.small-top-margin {
+  margin-top: 6px;
+}
+
+.text-info-proyecto {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.slider-img-info-proyecto {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.div-info-proyecto {
+  display: flex;
 }
 
 @media only screen and (max-width: 600px) {
@@ -505,6 +528,20 @@ h3 {
     background-color: #202020;
     max-width: 99%;
     min-width: 99%;
+  }
+
+  .text-info-proyecto {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .div-info-proyecto {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 

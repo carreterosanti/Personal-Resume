@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function WaveGenerator(props) {
-  console.log(props.wave);
   const generatedWaves = props.wave.map(element => (
     <>
       <linearGradient
