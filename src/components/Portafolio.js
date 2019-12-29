@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import PortfolioItem from "./PortfolioItem";
 import "./components-style.css";
-import {
-  portfolioReciclajeTandil,
-  portfolioRedisenoWebBacMono,
-  portfolioReemplazoDeSmartphone,
-  portfolioAlgoritmoDeTrazas
-} from "./data-materias.js";
+import { listadoProyectosPortfolio } from "./data-materias.js";
+import InfoProyecto from "./InfoProyecto";
 
 export default function Portfolio(props) {
   const [showInfoProyecto, setInfoProyecto] = useState(false);
@@ -16,6 +12,17 @@ export default function Portfolio(props) {
       return !prevState;
     });
   }
+
+  const listadoProyectos = listadoProyectosPortfolio.map(element => (
+    <PortfolioItem
+      titulo={element.titulo}
+      urlTecnologias={element.urlTecnologias}
+      descripcion={element.descripcion}
+      darkMode={props.darkMode}
+      wave={element.wave}
+      onClick={controllShowInfoProyecto}
+    />
+  ));
 
   return (
     <div className="middle-section">
@@ -29,35 +36,15 @@ export default function Portfolio(props) {
           marginBottom: "32px"
         }}
       >
-        <PortfolioItem
-          titulo={portfolioReciclajeTandil.titulo}
-          urlTecnologias={portfolioReciclajeTandil.urlTecnologias}
-          descripcion={portfolioReciclajeTandil.descripcion}
-          darkMode={props.darkMode}
-          wave={portfolioReciclajeTandil.wave}
-        />
-        <PortfolioItem
-          titulo={portfolioRedisenoWebBacMono.titulo}
-          urlTecnologias={portfolioRedisenoWebBacMono.urlTecnologias}
-          descripcion={portfolioRedisenoWebBacMono.descripcion}
-          darkMode={props.darkMode}
-          wave={portfolioRedisenoWebBacMono.wave}
-        />
-        <PortfolioItem
-          titulo={portfolioReemplazoDeSmartphone.titulo}
-          urlTecnologias={portfolioReemplazoDeSmartphone.urlTecnologias}
-          descripcion={portfolioReemplazoDeSmartphone.descripcion}
-          darkMode={props.darkMode}
-          wave={portfolioReemplazoDeSmartphone.wave}
-        />
-        <PortfolioItem
-          titulo={portfolioAlgoritmoDeTrazas.titulo}
-          urlTecnologias={portfolioAlgoritmoDeTrazas.urlTecnologias}
-          descripcion={portfolioAlgoritmoDeTrazas.descripcion}
-          darkMode={props.darkMode}
-          wave={portfolioAlgoritmoDeTrazas.wave}
-        />
+        {listadoProyectos}
       </div>
+
+      <InfoProyecto
+        show={showInfoProyecto}
+        closeControl={controllShowInfoProyecto}
+        darkMode={props.darkMode}
+      />
+
       <div
         className={props.darkMode ? "dark-break-line" : "light-break-line"}
       ></div>

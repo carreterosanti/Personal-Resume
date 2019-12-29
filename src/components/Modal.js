@@ -43,7 +43,7 @@ export default function Modal(props) {
 /* Requiere recibir mediante props lo siguiente: 
     darkMode={props.darkMode}
     title="Titulo del Model"
-    content={contenidoListadoMaterias}
+    content={contenidoDivPrincipal}
     show={props.show}
     closeControl={props.closeControl} 
 

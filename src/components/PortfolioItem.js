@@ -17,6 +17,7 @@ export default function PortfolioItem(props) {
       className={
         props.darkMode ? "dark-mode-portfolio-item-card" : "portfolio-item-card"
       }
+      onClick={props.onClick}
     >
       <div
         style={{

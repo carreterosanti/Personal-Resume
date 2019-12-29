@@ -78,8 +78,8 @@ h3 {
 .dark-break-line {
   min-height: 1px;
   width: 100%;
-  background-color: #f7f7f7;
-  box-shadow: 0 2px 4px 0 #f7f7f7;
+  background-color: #f7f7f793;
+  box-shadow: 0 2px 4px 0 #f7f7f793;
   transition: 0.2s;
   margin: 25px 0px;
 }

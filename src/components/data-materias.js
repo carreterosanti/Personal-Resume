@@ -301,3 +301,10 @@ export const portfolioAlgoritmoDeTrazas = {
     "Herramienta web que permite analizar la dependencia de datos a partir de un codigo fuente correspondiente a una iteración",
   wave: wavesAlgoritmoDeTrazas
 };
+
+export const listadoProyectosPortfolio = [
+  portfolioReciclajeTandil,
+  portfolioRedisenoWebBacMono,
+  portfolioReemplazoDeSmartphone,
+  portfolioAlgoritmoDeTrazas
+];
