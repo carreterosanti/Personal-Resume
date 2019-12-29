@@ -13,15 +13,15 @@ export default function InfoProyecto(props) {
   });
 
   const parrafoPorElementoDescripcion = props.descripcion.map(element => (
-    <p class="none-top-margin">{element}</p>
+    <p className="none-top-margin">{element}</p>
   ));
   const parrafoPorElementoParticipacion = props.participacion.map(element => (
-    <p class="none-top-margin">{element}</p>
+    <p className="none-top-margin">{element}</p>
   ));
   const parrafoParticipacion =
     props.participacion.length > 0 ? (
       <div>
-        <h3 class="h3-small-sub-titulo">Participación</h3>
+        <h3 className="h3-small-sub-titulo">Participación</h3>
         {parrafoPorElementoParticipacion}
       </div>
     ) : (
@@ -29,19 +29,19 @@ export default function InfoProyecto(props) {
     );
 
   const contenido = (
-    <div class="div-info-proyecto">
-      <div class="text-info-proyecto">
+    <div className="div-info-proyecto">
+      <div className="text-info-proyecto">
         {parrafoPorElementoDescripcion}
         {parrafoParticipacion}
         <div>
-          <h3 class="h3-small-sub-titulo">Desarrollo</h3>
-          <p class="small-top-margin">{props.desarrollo}</p>
+          <h3 className="h3-small-sub-titulo">Desarrollo</h3>
+          <p className="small-top-margin">{props.desarrollo}</p>
         </div>
         <a style={{ color: "#1565C0" }} href={props.linkRepositorio}>
           Repositorio Proyecto {props.titulo}
         </a>
       </div>
-      <div class="slider-img-info-proyecto">{imagenes}</div>
+      <div className="slider-img-info-proyecto">{imagenes}</div>
     </div>
   );
 
