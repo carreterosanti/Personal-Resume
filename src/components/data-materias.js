@@ -280,7 +280,7 @@ export const portfolioReciclajeTandil = {
   participacion:
     "Mi participación dentro del proyecto consto en el diseño e implementación de cada una de las vistas que componen la aplicación, cumpliendo con las consignas de la cátedra y teniendo en cuenta que debía ser intuitiva para ser utilizada por usuarios inexpertos.",
   desarrollo:
-    "La implementación del proyecto fue realizada en forma íntegra en Java.",
+    "La implementación del proyecto fue realizada en forma íntegra en el lenguaje de programación Java.",
   linkRepositorio:
     "https://bitbucket.org/carreterosanti/reciclados-tandil-tp-final-moviles/src/master/",
   wave: wavesReciclajeTandil

@@ -4,7 +4,7 @@ import Modal from "./Modal";
 export default function InfoProyecto(props) {
   const contenido = (
     <div>
-      <p>{props.descripcion}</p>
+      <p style={{ marginTop: "0px" }}>{props.descripcion}</p>
       <h3 class="h3-small-sub-titulo">Participación</h3>
       <p>{props.participacion}</p>
       <h3 class="h3-small-sub-titulo">Desarrollo</h3>
