@@ -275,6 +275,14 @@ export const portfolioReciclajeTandil = {
   urlTecnologias: ["android-icon.png", "java-icon.png"],
   descripcion:
     "Aplicacion Android que permite visualizar y administrar los elementos reciclados de un usuario",
+  descripcionExtendida:
+    "Este proyecto corresponde al trabajo final de la materia “Introducción a la Programación de Dispositivos Móviles” de la carrera de Ingeniería de Sistemas de la Universidad Nacional del Centro de la Provincia de Buenos Aires y consta en el desarrollo de una aplicación para android, la cual permite visualizar y manejar los reciclados de un usuario. Dicha aplicación se conecta con un servidor provisto por la cátedra el cual permite, almacenar nuevos usuarios, almacenar nuevos reciclados y consultar la lista y total de reciclados de un usuario dado.",
+  participacion:
+    "Mi participación dentro del proyecto consto en el diseño e implementación de cada una de las vistas que componen la aplicación, cumpliendo con las consignas de la cátedra y teniendo en cuenta que debía ser intuitiva para ser utilizada por usuarios inexpertos.",
+  desarrollo:
+    "La implementación del proyecto fue realizada en forma íntegra en Java.",
+  linkRepositorio:
+    "https://bitbucket.org/carreterosanti/reciclados-tandil-tp-final-moviles/src/master/",
   wave: wavesReciclajeTandil
 };
 
@@ -283,6 +291,7 @@ export const portfolioRedisenoWebBacMono = {
   urlTecnologias: ["react-icon.png", "js-icon.png", "css-icon.png"],
   descripcion:
     "Resideño del inicio de la pagina web correspondiente a la empresa britanica de fabricacion de superdeportivos BAC",
+  descripcionExtendida: "",
   wave: wavesRedisenoWebBacMono
 };
 

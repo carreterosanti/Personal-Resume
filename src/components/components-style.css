@@ -262,6 +262,12 @@ h3 {
   font-size: 23px;
 }
 
+.h3-small-sub-titulo {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 470;
+}
+
 .circulo-condicion-materia {
   min-width: 25px;
   max-width: 25px;
