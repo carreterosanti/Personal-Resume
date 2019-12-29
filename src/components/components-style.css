@@ -338,12 +338,16 @@ h3 {
   margin-top: 6px;
 }
 
+.none-top-margin {
+  margin-top: 0px;
+}
+
 .text-info-proyecto {
-  max-width: 60%;
+  max-width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .slider-img-info-proyecto {

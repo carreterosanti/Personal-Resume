@@ -275,15 +275,17 @@ export const portfolioReciclajeTandil = {
   urlTecnologias: ["android-icon.png", "java-icon.png"],
   descripcion:
     "Aplicacion Android que permite visualizar y administrar los elementos reciclados de un usuario",
-  descripcionExtendida:
-    "Este proyecto corresponde al trabajo final de la materia “Introducción a la Programación de Dispositivos Móviles” de la carrera de Ingeniería de Sistemas de la Universidad Nacional del Centro de la Provincia de Buenos Aires y consta en el desarrollo de una aplicación para android, la cual permite visualizar y manejar los reciclados de un usuario. Dicha aplicación se conecta con un servidor provisto por la cátedra el cual permite, almacenar nuevos usuarios, almacenar nuevos reciclados y consultar la lista y total de reciclados de un usuario dado.",
-  participacion:
-    "Mi participación dentro del proyecto consto en el diseño e implementación de cada una de las vistas que componen la aplicación, cumpliendo con las consignas de la cátedra y teniendo en cuenta que debía ser intuitiva para ser utilizada por usuarios inexpertos.",
+  descripcionExtendida: [
+    "Este proyecto corresponde al trabajo final de la materia “Introducción a la Programación de Dispositivos Móviles” de la carrera de Ingeniería de Sistemas de la Universidad Nacional del Centro de la Provincia de Buenos Aires y consta en el desarrollo de una aplicación para android, la cual permite visualizar y manejar los reciclados de un usuario. Dicha aplicación se conecta con un servidor provisto por la cátedra el cual permite, almacenar nuevos usuarios, almacenar nuevos reciclados y consultar la lista y total de reciclados de un usuario dado."
+  ],
+  participacion: [
+    "Mi participación dentro del proyecto consto en el diseño e implementación de cada una de las vistas que componen la aplicación, cumpliendo con las consignas de la cátedra y teniendo en cuenta que debía ser lo suficientemente intuitiva para ser utilizada por usuarios inexpertos. \n Además se tuvieron en cuenta normativas de diseño “Material Design” sugeridas por Google."
+  ],
   desarrollo:
     "La implementación del proyecto fue realizada en forma íntegra en el lenguaje de programación Java.",
   linkRepositorio:
     "https://bitbucket.org/carreterosanti/reciclados-tandil-tp-final-moviles/src/master/",
-  urlImagen: [
+  urlImagenes: [
     "./recicladosTandilScreenshot1.png",
     "./recicladosTandilScreenshot2.png",
     "./recicladosTandilScreenshot3.png",
@@ -301,7 +303,18 @@ export const portfolioRedisenoWebBacMono = {
   urlTecnologias: ["react-icon.png", "js-icon.png", "css-icon.png"],
   descripcion:
     "Resideño del inicio de la pagina web correspondiente a la empresa britanica de fabricacion de superdeportivos BAC",
-  descripcionExtendida: "",
+  descripcionExtendida: [
+    "El objetivo de este proyecto fue experimentar desarrollando React y utilizar “flexbox” para el layout.",
+    "Comencé rediseñando la barra de navegación haciéndola más simple y extendida, luego con el objetivo de evitar el clásico carrusel de fotos presente en todos los sitios web de marcas de automóviles, pero respetando la información presentada en la versión original del sitio web, opte por una grilla compuesta por 4 cuadrantes para presentar la información.",
+    "Esto último además permite integrar las opciones que muestran ciertos elementos de la barra de navegación en la sección izquierda de la grilla."
+  ],
+  linkRepositorio:
+    "https://github.com/carreterosanti/Bac-Mono-Redesign-Website",
+  urlImagenes: [
+    "./redesignVersionBacMono1.png",
+    "./redesignVersionBacMono2.png"
+  ],
+  participacion: [],
   wave: wavesRedisenoWebBacMono
 };
 
@@ -310,6 +323,24 @@ export const portfolioReemplazoDeSmartphone = {
   urlTecnologias: ["java-icon.png", "java-fx-icon.png"],
   descripcion:
     "Aplicación de escritorio que ofrece al usuario sugerencias de reemplazo de su smartphone dado un presupuesto y prioridad de características indicadas por el usuario",
+  descripcionExtendida: [
+    "Este trabajo corresponde al proyecto evaluador final de la materia “Investigación Operativa” de la carrera de Ingeniería de Sistemas de la Universidad Nacional del Centro de la Provincia de Buenos Aires y consta en el desarrollo de una herramienta, con el objetivo de analizar mediante el método AHP el posible reemplazo de un dispositivo móvil, partiendo de cierto valor compuesto por: precio de reventa del dispositivo actual + inversión deseada. Luego, identificando la prioridad del usuario de las distintas características de un dispositivo móvil y concluyendo en un podio de 3 dispositivos que mejor se ajustan a las preferencias y presupuesto del usuario."
+  ],
+  participacion: [
+    "Mi participación dentro del proyecto consto en el diseño e implementación de cada una de las vistas e interacciones que componen la herramienta.",
+    "Además realice la implementación de la funcionalidad de recolección de datos mediante la técnica de “Web Scraping”, utilizando la librería Jsoup para Java. Esto permite obtener los datos actualizados del valor de reventa, valor en condiciones de nuevo, fecha de lanzamiento del smartphone y el puntaje de review de cada uno de los smartphones involucrados."
+  ],
+  urlImagenes: [
+    "./reemplazoDeSmartPhone1.png",
+    "./reemplazoDeSmartPhone2.png",
+    "./reemplazoDeSmartPhone3.png",
+    "./reemplazoDeSmartPhone4.png"
+  ],
+  linkRepositorio:
+    "https://bitbucket.org/carreterosanti/tpinvestigacionoperativa/src/master/",
+  desarrollo:
+    "El back-end de la aplicación fue desarrollado en forma íntegra en el lenguaje de programación Java, mientras que el front-end fue implementado mediante la herramienta “JavaFX Scene Builder”.",
+
   wave: wavesReemplazoDeSmartphone
 };
 
@@ -318,6 +349,7 @@ export const portfolioAlgoritmoDeTrazas = {
   urlTecnologias: ["java-icon.png", "angular-icon.png"],
   descripcion:
     "Herramienta web que permite analizar la dependencia de datos a partir de un codigo fuente correspondiente a una iteración",
+  descripcionExtendida: [],
   wave: wavesAlgoritmoDeTrazas
 };
 

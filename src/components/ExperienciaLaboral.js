@@ -6,7 +6,6 @@ export default function ExperienciaLaboral(props) {
       <h2>Experiencia Laboral </h2>
       <div className="work-experience-div">
         <div style={{ flexGrow: 2 }}>
-          {" "}
           <p>
             Ejemplo - During my job experience, I had practical skills with
             interesting technologies, tasks, people. In the whole role of my

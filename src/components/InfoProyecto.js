@@ -2,32 +2,41 @@ import React from "react";
 import Modal from "./Modal";
 
 export default function InfoProyecto(props) {
-  console.log("$ " + props.imagen);
-
   const imagenes = props.imagen.map(element => {
-    console.log("L" + element);
     return (
       <img
-        style={{ maxHeight: "500px", marginRight: "10px" }}
+        style={{ maxHeight: "500px", marginRight: "10px", maxWidth: "100%" }}
         src={element}
         alt="Imagen Proyecto"
       />
     );
   });
 
+  const parrafoPorElementoDescripcion = props.descripcion.map(element => (
+    <p class="none-top-margin">{element}</p>
+  ));
+  const parrafoPorElementoParticipacion = props.participacion.map(element => (
+    <p class="none-top-margin">{element}</p>
+  ));
+  const parrafoParticipacion =
+    props.participacion.length > 0 ? (
+      <div>
+        <h3 class="h3-small-sub-titulo">Participación</h3>
+        {parrafoPorElementoParticipacion}
+      </div>
+    ) : (
+      <div></div>
+    );
+
   const contenido = (
     <div class="div-info-proyecto">
       <div class="text-info-proyecto">
-        <p style={{ marginTop: "0px" }}>{props.descripcion}</p>
-        <div>
-          <h3 class="h3-small-sub-titulo">Participación</h3>
-          <p class="small-top-margin">{props.participacion}</p>
-        </div>
+        {parrafoPorElementoDescripcion}
+        {parrafoParticipacion}
         <div>
           <h3 class="h3-small-sub-titulo">Desarrollo</h3>
           <p class="small-top-margin">{props.desarrollo}</p>
         </div>
-
         <a style={{ color: "#1565C0" }} href={props.linkRepositorio}>
           Repositorio Proyecto {props.titulo}
         </a>

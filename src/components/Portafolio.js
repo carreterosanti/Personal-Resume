@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import PortfolioItem from "./PortfolioItem";
 import "./components-style.css";
-import { listadoProyectosPortfolio } from "./data-materias.js";
+import { listadoProyectosPortfolio } from "./data-file.js";
 import InfoProyecto from "./InfoProyecto";
 
 export default function Portfolio(props) {
   const [showInfoProyecto, setInfoProyecto] = useState(false);
   const [tituloInfoProyecto, setTituloInfoProyecto] = useState();
-  const [descripcionInfoProyecto, setDescripcionInfoProyecto] = useState();
-  const [participacionInfoProyecto, setParticipacionInfoProyecto] = useState();
+  const [descripcionInfoProyecto, setDescripcionInfoProyecto] = useState([]);
+  const [participacionInfoProyecto, setParticipacionInfoProyecto] = useState(
+    []
+  );
   const [desarrolloInfoProyecto, setDesarrolloInfoProyecto] = useState();
   const [
     linkRepositorioInfoProyecto,
@@ -53,7 +55,7 @@ export default function Portfolio(props) {
             element.participacion,
             element.desarrollo,
             element.linkRepositorio,
-            element.urlImagen
+            element.urlImagenes
           );
           return controllShowInfoProyecto();
         }}

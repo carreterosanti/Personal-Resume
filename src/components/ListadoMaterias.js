@@ -4,7 +4,7 @@ import {
   listadoMaterias,
   listadoOptativas,
   listadoReferencias
-} from "./data-materias";
+} from "./data-file";
 
 export default function ListadoMaterias(props) {
   const colorPorCondicion = condicion => {

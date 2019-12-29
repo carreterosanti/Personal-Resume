@@ -1,7 +1,7 @@
 import React from "react";
 import "./components-style.css";
 import WaveGenerator from "./WaveGenerator";
-import { wavesReciclajeTandil } from "./data-materias";
+import { wavesReciclajeTandil } from "./data-file";
 
 export default function PortfolioItem(props) {
   const iconosTecnologias = props.urlTecnologias.map(element => (
