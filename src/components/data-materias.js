@@ -283,6 +283,7 @@ export const portfolioReciclajeTandil = {
     "La implementación del proyecto fue realizada en forma íntegra en el lenguaje de programación Java.",
   linkRepositorio:
     "https://bitbucket.org/carreterosanti/reciclados-tandil-tp-final-moviles/src/master/",
+  urlImagen: "./recicladosTandilScreenshot1.png",
   wave: wavesReciclajeTandil
 };
 

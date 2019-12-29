@@ -14,19 +14,24 @@ export default function Portfolio(props) {
     linkRepositorioInfoProyecto,
     setlinkRepositorioInfoProyecto
   ] = useState();
+  const [imagenInfoProyecto, setImagenInfoProyecto] = useState(
+    "./images/recicladosTandilScreenshot1.png"
+  );
 
   function controllInfoProyecto(
     titulo,
     descripcion,
     participacion,
     desarrollo,
-    linkRepositorio
+    linkRepositorio,
+    imagen
   ) {
     setTituloInfoProyecto(titulo);
     setDescripcionInfoProyecto(descripcion);
     setParticipacionInfoProyecto(participacion);
     setDesarrolloInfoProyecto(desarrollo);
     setlinkRepositorioInfoProyecto(linkRepositorio);
+    setImagenInfoProyecto(imagen);
   }
 
   function controllShowInfoProyecto() {
@@ -49,7 +54,8 @@ export default function Portfolio(props) {
             element.descripcionExtendida,
             element.participacion,
             element.desarrollo,
-            element.linkRepositorio
+            element.linkRepositorio,
+            element.urlImagen
           );
           return controllShowInfoProyecto();
         }}
@@ -81,6 +87,7 @@ export default function Portfolio(props) {
         participacion={participacionInfoProyecto}
         desarrollo={desarrolloInfoProyecto}
         linkRepositorio={linkRepositorioInfoProyecto}
+        imagen={imagenInfoProyecto}
       />
 
       <div
