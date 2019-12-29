@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/Personal-Resume/static/css/main.ff6f9dce.chunk.css",
-    "main.js": "/Personal-Resume/static/js/main.52d1703c.chunk.js",
-    "main.js.map": "/Personal-Resume/static/js/main.52d1703c.chunk.js.map",
-    "runtime-main.js": "/Personal-Resume/static/js/runtime-main.2fb2f14b.js",
-    "runtime-main.js.map": "/Personal-Resume/static/js/runtime-main.2fb2f14b.js.map",
-    "static/js/2.a0ea7895.chunk.js": "/Personal-Resume/static/js/2.a0ea7895.chunk.js",
-    "static/js/2.a0ea7895.chunk.js.map": "/Personal-Resume/static/js/2.a0ea7895.chunk.js.map",
+    "main.css": "/Personal-Resume/static/css/main.f4b7c176.chunk.css",
+    "main.js": "/Personal-Resume/static/js/main.f5baf2de.chunk.js",
+    "main.js.map": "/Personal-Resume/static/js/main.f5baf2de.chunk.js.map",
+    "runtime-main.js": "/Personal-Resume/static/js/runtime-main.fe31d1ed.js",
+    "runtime-main.js.map": "/Personal-Resume/static/js/runtime-main.fe31d1ed.js.map",
+    "static/js/2.c19136f7.chunk.js": "/Personal-Resume/static/js/2.c19136f7.chunk.js",
+    "static/js/2.c19136f7.chunk.js.map": "/Personal-Resume/static/js/2.c19136f7.chunk.js.map",
     "index.html": "/Personal-Resume/index.html",
-    "precache-manifest.7e597505cbf062cee08392bea8eaed4e.js": "/Personal-Resume/precache-manifest.7e597505cbf062cee08392bea8eaed4e.js",
+    "precache-manifest.21d3cd7aab0a24fb00c09c3a54d7efd7.js": "/Personal-Resume/precache-manifest.21d3cd7aab0a24fb00c09c3a54d7efd7.js",
     "service-worker.js": "/Personal-Resume/service-worker.js",
-    "static/css/main.ff6f9dce.chunk.css.map": "/Personal-Resume/static/css/main.ff6f9dce.chunk.css.map",
+    "static/css/main.f4b7c176.chunk.css.map": "/Personal-Resume/static/css/main.f4b7c176.chunk.css.map",
+    "static/js/2.c19136f7.chunk.js.LICENSE": "/Personal-Resume/static/js/2.c19136f7.chunk.js.LICENSE",
     "static/media/android-icon.png": "/Personal-Resume/static/media/android-icon.e0fb0b16.png",
     "static/media/angular-icon.png": "/Personal-Resume/static/media/angular-icon.1a632d2b.png",
     "static/media/java-fx-icon.png": "/Personal-Resume/static/media/java-fx-icon.c1323353.png",
     "static/media/js-icon.png": "/Personal-Resume/static/media/js-icon.82f4b91e.png",
     "static/media/logo.svg": "/Personal-Resume/static/media/logo.25bf045c.svg",
     "static/media/react-icon.png": "/Personal-Resume/static/media/react-icon.47ce6e77.png",
-    "static/media/reciclados-tandil-app.png": "/Personal-Resume/static/media/reciclados-tandil-app.b75bd533.png",
     "static/media/redesign-web-bac-mono.png": "/Personal-Resume/static/media/redesign-web-bac-mono.3f72acd2.png",
     "static/media/reemplazo-de-smartphones.png": "/Personal-Resume/static/media/reemplazo-de-smartphones.7cb20968.png",
     "static/media/vsco-icon.png": "/Personal-Resume/static/media/vsco-icon.34cebfd4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fb2f14b.js",
-    "static/js/2.a0ea7895.chunk.js",
-    "static/css/main.ff6f9dce.chunk.css",
-    "static/js/main.52d1703c.chunk.js"
+    "static/js/runtime-main.fe31d1ed.js",
+    "static/js/2.c19136f7.chunk.js",
+    "static/css/main.f4b7c176.chunk.css",
+    "static/js/main.f5baf2de.chunk.js"
   ]
 }

@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2573cd671077251d8663f3289e2ce7c5",
+    "revision": "5599b4c125876b0af7944bc1d10e077c",
     "url": "/Personal-Resume/index.html"
   },
   {
-    "revision": "161b3226775d3ebb0543",
-    "url": "/Personal-Resume/static/css/main.ff6f9dce.chunk.css"
+    "revision": "f402a7c4cd5cc6b68da4",
+    "url": "/Personal-Resume/static/css/main.f4b7c176.chunk.css"
   },
   {
-    "revision": "f2f789ff6d0e6c64b640",
-    "url": "/Personal-Resume/static/js/2.a0ea7895.chunk.js"
+    "revision": "e291c8581b385f2399e9",
+    "url": "/Personal-Resume/static/js/2.c19136f7.chunk.js"
   },
   {
-    "revision": "161b3226775d3ebb0543",
-    "url": "/Personal-Resume/static/js/main.52d1703c.chunk.js"
+    "revision": "e92e356b467ce5268290e03394dbf217",
+    "url": "/Personal-Resume/static/js/2.c19136f7.chunk.js.LICENSE"
   },
   {
-    "revision": "2e32689c6960b28f20d7",
-    "url": "/Personal-Resume/static/js/runtime-main.2fb2f14b.js"
+    "revision": "f402a7c4cd5cc6b68da4",
+    "url": "/Personal-Resume/static/js/main.f5baf2de.chunk.js"
+  },
+  {
+    "revision": "0bf8913e1f370f5cfd13",
+    "url": "/Personal-Resume/static/js/runtime-main.fe31d1ed.js"
   },
   {
     "revision": "e0fb0b16cdb4bd9aeff6abeb5230f21a",
@@ -42,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "47ce6e77f039020ee2e76a10c1e988e9",
     "url": "/Personal-Resume/static/media/react-icon.47ce6e77.png"
-  },
-  {
-    "revision": "b75bd53376d5768a4971df5f4d35a80a",
-    "url": "/Personal-Resume/static/media/reciclados-tandil-app.b75bd533.png"
   },
   {
     "revision": "3f72acd2aa6beaf5785ab0196de85a19",
