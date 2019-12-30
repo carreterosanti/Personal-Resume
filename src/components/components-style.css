@@ -3,6 +3,10 @@
   justify-content: space-between;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .light-mode {
   background-color: #fafafa;
   color: #333;
@@ -135,6 +139,16 @@ h3 {
 .portfolio-item-descripcion {
   padding: 5px 12px;
   margin: 0px;
+}
+
+.icono-side-right {
+  height: 30px;
+  width: 30px;
+  margin-left: 25px;
+}
+
+.clickable:hover {
+  cursor: pointer;
 }
 
 .svg-skills {

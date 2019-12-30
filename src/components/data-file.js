@@ -331,10 +331,10 @@ export const portfolioReemplazoDeSmartphone = {
     "Además realice la implementación de la funcionalidad de recolección de datos mediante la técnica de “Web Scraping”, utilizando la librería Jsoup para Java. Esto permite obtener los datos actualizados del valor de reventa, valor en condiciones de nuevo, fecha de lanzamiento del smartphone y el puntaje de review de cada uno de los smartphones involucrados."
   ],
   urlImagenes: [
-    "./reemplazoDeSmartPhone1.png",
-    "./reemplazoDeSmartPhone2.png",
-    "./reemplazoDeSmartPhone3.png",
-    "./reemplazoDeSmartPhone4.png"
+    "./reemplazoDeSmartphone1.png",
+    "./reemplazoDeSmartphone2.png",
+    "./reemplazoDeSmartphone3.png",
+    "./reemplazoDeSmartphone4.png"
   ],
   linkRepositorio:
     "https://bitbucket.org/carreterosanti/tpinvestigacionoperativa/src/master/",

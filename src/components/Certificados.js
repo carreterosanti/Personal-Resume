@@ -10,7 +10,7 @@ export default function Certificados(props) {
           - Universidad Nacional del Centro de la Provincia de Buenos Aires
         </p>
         <img
-          style={{ height: "30px", width: "30px", marginLeft: "25px" }}
+          className="icono-side-right clickable"
           src={require(props.darkMode
             ? "./images/dark-mode-certificate-icon.png"
             : "./images/certificate-icon.png")}

@@ -15,7 +15,9 @@ export default function PortfolioItem(props) {
   return (
     <div
       className={
-        props.darkMode ? "dark-mode-portfolio-item-card" : "portfolio-item-card"
+        props.darkMode
+          ? "dark-mode-portfolio-item-card clickable"
+          : "portfolio-item-card clickable"
       }
       onClick={props.onClick}
     >

@@ -17,6 +17,7 @@ export default function Modal(props) {
         <div className="top-div-model">
           <h3 style={{ marginTop: "0px" }}>{props.title}</h3>
           <img
+            className="clickable"
             style={{
               height: "25px",
               width: "25px"
