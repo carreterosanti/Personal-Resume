@@ -21,7 +21,7 @@ export default function PortfolioItem(props) {
     >
       <div
         style={{
-          minWidth: "60%",
+          minWidth: "70%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-evenly"
@@ -45,7 +45,7 @@ export default function PortfolioItem(props) {
         style={{
           display: "flex",
           justifyContent: "flex-end",
-          minWidth: "40%",
+          minWidth: "30%",
           alignItems: "center"
         }}
       >
