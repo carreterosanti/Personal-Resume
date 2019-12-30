@@ -16,7 +16,7 @@ export default function InfoProyecto(props) {
     <p className="none-top-margin">{element}</p>
   ));
   const parrafoPorElementoParticipacion = props.participacion.map(element => (
-    <p className="none-top-margin">{element}</p>
+    <p className="small-top-margin">{element}</p>
   ));
   const parrafoParticipacion =
     props.participacion.length > 0 ? (

@@ -349,7 +349,7 @@ h3 {
 }
 
 .small-top-margin {
-  margin-top: 6px;
+  margin-top: 5px;
 }
 
 .none-top-margin {
@@ -439,7 +439,7 @@ h3 {
   .modal-content {
     position: fixed;
     max-height: 90vh;
-    width: 85vw;
+    width: 90vw;
     height: fit-content;
     top: 50%;
     left: 50%;
@@ -453,7 +453,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
   }
 
   .h3-sub-titulo {

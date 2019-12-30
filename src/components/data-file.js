@@ -271,7 +271,7 @@ export const wavesAlgoritmoDeTrazas = [
 ];
 
 export const portfolioReciclajeTandil = {
-  titulo: "Reciclaje Tandil Android App",
+  titulo: "Reciclaje Tandil App",
   urlTecnologias: ["android-icon.png", "java-icon.png"],
   descripcion:
     "Aplicacion Android que permite visualizar y administrar los elementos reciclados de un usuario",
