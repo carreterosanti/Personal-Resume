@@ -28,18 +28,95 @@ export default function InfoProyecto(props) {
       <div></div>
     );
 
+  console.log(props.linkWeb);
+  const bottomInfoProyecto =
+    props.linkWeb !== "" ? (
+      <div className="div-bottom-info-proyecto">
+        <div
+          style={{ marginRight: "10px" }}
+          className="div-bottom-info-proyecto"
+        >
+          <a
+            style={{ width: "25px", height: "25px", marginRight: "5px" }}
+            href={props.linkWeb}
+          >
+            <img
+              className="bottom-info-proyecto-icon clickable"
+              src={require(props.darkMode
+                ? "./images/dark-mode-www-icon.png"
+                : "./images/www-icon.png")}
+              alt="Brochure Icon"
+            />
+          </a>
+
+          <a
+            style={{ color: "#414141" }}
+            className="small-text-mobile-a"
+            href={props.linkWeb}
+          >
+            Link {props.titulo}
+          </a>
+        </div>
+        <div className="div-bottom-info-proyecto">
+          <a
+            style={{ width: "25px", height: "25px", marginRight: "5px" }}
+            href={props.linkRepositorio}
+          >
+            <img
+              className="bottom-info-proyecto-icon clickable"
+              src={require(props.darkMode
+                ? "./images/dark-mode-repository-code-icon.png"
+                : "./images/repository-code-icon.png")}
+              alt="Brochure Icon"
+            />
+          </a>
+
+          <a
+            style={{ color: "#414141" }}
+            className="small-text-mobile-a"
+            href={props.linkRepositorio}
+          >
+            Repositorio Proyecto {props.titulo}
+          </a>
+        </div>
+      </div>
+    ) : (
+      <div className="div-bottom-info-proyecto">
+        <div className="div-bottom-info-proyecto">
+          <a
+            style={{ width: "25px", height: "25px", marginRight: "5px" }}
+            href={props.linkRepositorio}
+          >
+            <img
+              className="bottom-info-proyecto-icon clickable"
+              src={require(props.darkMode
+                ? "./images/dark-mode-repository-code-icon.png"
+                : "./images/repository-code-icon.png")}
+              alt="Brochure Icon"
+            />
+          </a>
+
+          <a
+            style={{ color: "#414141" }}
+            className="small-text-mobile-a"
+            href={props.linkRepositorio}
+          >
+            Repositorio Proyecto {props.titulo}
+          </a>
+        </div>
+      </div>
+    );
+
   const contenido = (
     <div className="div-info-proyecto">
       <div className="text-info-proyecto">
         {parrafoPorElementoDescripcion}
-        {parrafoParticipacion}
         <div>
           <h3 className="h3-small-sub-titulo">Desarrollo</h3>
           <p className="small-top-margin">{props.desarrollo}</p>
         </div>
-        <a style={{ color: "#1565C0" }} href={props.linkRepositorio}>
-          Repositorio Proyecto {props.titulo}
-        </a>
+        {parrafoParticipacion}
+        {bottomInfoProyecto}
       </div>
       <div className="slider-img-info-proyecto">{imagenes}</div>
     </div>

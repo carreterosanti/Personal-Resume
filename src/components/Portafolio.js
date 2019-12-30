@@ -17,6 +17,7 @@ export default function Portfolio(props) {
     setlinkRepositorioInfoProyecto
   ] = useState();
   const [imagenInfoProyecto, setImagenInfoProyecto] = useState([]);
+  const [linkWebInfoProyecto, setLinkWebInfoProyecto] = useState();
 
   function controllInfoProyecto(
     titulo,
@@ -24,7 +25,8 @@ export default function Portfolio(props) {
     participacion,
     desarrollo,
     linkRepositorio,
-    imagen
+    imagen,
+    linkWeb
   ) {
     setTituloInfoProyecto(titulo);
     setDescripcionInfoProyecto(descripcion);
@@ -32,6 +34,7 @@ export default function Portfolio(props) {
     setDesarrolloInfoProyecto(desarrollo);
     setlinkRepositorioInfoProyecto(linkRepositorio);
     setImagenInfoProyecto(imagen);
+    setLinkWebInfoProyecto(linkWeb);
   }
 
   function controllShowInfoProyecto() {
@@ -55,7 +58,8 @@ export default function Portfolio(props) {
             element.participacion,
             element.desarrollo,
             element.linkRepositorio,
-            element.urlImagenes
+            element.urlImagenes,
+            element.linkWeb
           );
           return controllShowInfoProyecto();
         }}
@@ -88,6 +92,7 @@ export default function Portfolio(props) {
         desarrollo={desarrolloInfoProyecto}
         linkRepositorio={linkRepositorioInfoProyecto}
         imagen={imagenInfoProyecto}
+        linkWeb={linkWebInfoProyecto}
       />
 
       <div

@@ -295,7 +295,8 @@ export const portfolioReciclajeTandil = {
     "./recicladosTandilScreenshot7.png",
     "./recicladosTandilScreenshot8.png"
   ],
-  wave: wavesReciclajeTandil
+  wave: wavesReciclajeTandil,
+  linkWeb: ""
 };
 
 export const portfolioRedisenoWebBacMono = {
@@ -304,7 +305,7 @@ export const portfolioRedisenoWebBacMono = {
   descripcion:
     "Resideño del inicio de la pagina web correspondiente a la empresa britanica de fabricacion de superdeportivos BAC",
   descripcionExtendida: [
-    "El objetivo de este proyecto fue experimentar desarrollando React y utilizar “flexbox” para el layout.",
+    "El objetivo de este proyecto fue experimentar desarrollando con la librería React y el módulo de CSS “flexbox”.",
     "Comencé rediseñando la barra de navegación haciéndola más simple y extendida, luego con el objetivo de evitar el clásico carrusel de fotos presente en todos los sitios web de marcas de automóviles, pero respetando la información presentada en la versión original del sitio web, opte por una grilla compuesta por 4 cuadrantes para presentar la información.",
     "Esto último además permite integrar las opciones que muestran ciertos elementos de la barra de navegación en la sección izquierda de la grilla."
   ],
@@ -315,7 +316,10 @@ export const portfolioRedisenoWebBacMono = {
     "./redesignVersionBacMono2.png"
   ],
   participacion: [],
-  wave: wavesRedisenoWebBacMono
+  desarrollo:
+    "La creación y configuración del proyecto fue realizado mediante el paquete de npm “create-react-app”. Luego la implementación del mismo fue desarrollado en forma integra utilizando la librería React.",
+  wave: wavesRedisenoWebBacMono,
+  linkWeb: "https://carreterosanti.github.io/Bac-Mono-Redesign-Website/"
 };
 
 export const portfolioReemplazoDeSmartphone = {
@@ -341,7 +345,8 @@ export const portfolioReemplazoDeSmartphone = {
   desarrollo:
     "El back-end de la aplicación fue desarrollado en forma íntegra en el lenguaje de programación Java, mientras que el front-end fue implementado mediante la herramienta “JavaFX Scene Builder”.",
 
-  wave: wavesReemplazoDeSmartphone
+  wave: wavesReemplazoDeSmartphone,
+  linkWeb: ""
 };
 
 export const portfolioAlgoritmoDeTrazas = {
@@ -349,8 +354,21 @@ export const portfolioAlgoritmoDeTrazas = {
   urlTecnologias: ["java-icon.png", "angular-icon.png"],
   descripcion:
     "Herramienta web que permite analizar la dependencia de datos a partir de un codigo fuente correspondiente a una iteración",
-  descripcionExtendida: [],
-  wave: wavesAlgoritmoDeTrazas
+  descripcionExtendida: [
+    "En este trabajo corresponde a un proyecto evaluador final de la materia “Arquitectura de Computadores y Técnicas Digitales” de la carrera Ingeniería de Sistemas de la Universidad Nacional de Centro de la Provincia de Buenos Aires y consta en el desarrollo de una herramienta web, con el objetivo de analizar la dependencia de datos a partir de un código fuente correspondiente a una iteración.",
+    "Dicha herramienta analiza el código fuente, genera un grafo denominado “Grafo Temporal” a partir de las dependencia de datos de tipo RAW y detecta las trazas que contienen ciclos y/o bucles."
+  ],
+  participacion: [
+    "Mi participación dentro del proyecto constó en la implementación de las siguientes funcionalidades del back-end: análisis léxico y verificación sintáctica del código fuente provisto por el usuario, análisis de las sentencias reconociendo las variables definidas y dependencias entre ellas, generación del grafo de dependencias temporal, algoritmo de reconocimiento de trazas con ciclos o bucles.",
+    "Además también participe en el diseño final del front-end definiendo el layout y flujo de utilización de la herramienta."
+  ],
+  desarrollo:
+    "El desarrollo del back-end fue realizado en el lenguaje de programación Java, mientras que el fron-end fue implementado utilizando el framework AngularJS. Estos se comunican entre sí mediante servicios REST.",
+  linkRepositorio:
+    "https://bitbucket.org/tpfinaltolozacarretero/mavenmaster/src/master/",
+  urlImagenes: ["./algoritmoDeTrazas.png"],
+  wave: wavesAlgoritmoDeTrazas,
+  linkWeb: "https://trazasapplication.herokuapp.com/"
 };
 
 export const listadoProyectosPortfolio = [
