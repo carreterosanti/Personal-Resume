@@ -8,17 +8,18 @@ export default function Skills(props) {
       nivel: "90",
       color: "#1565C0"
     },
-    {
-      imgSkill: "css-icon.png",
-      alt: "Icono CSS Lenguaje de Programación",
-      nivel: "60",
-      color: "#0277BD"
-    },
+
     {
       imgSkill: "js-icon.png",
       alt: "Icono JavaScript Lenguaje de Programación",
       nivel: "60",
       color: "#F0DB4F"
+    },
+    {
+      imgSkill: "css-icon.png",
+      alt: "Icono CSS Lenguaje de Programación",
+      nivel: "60",
+      color: "#0277BD"
     },
     {
       imgSkill: "react-icon.png",
@@ -51,7 +52,7 @@ export default function Skills(props) {
             ? "dark-mode-circular-background"
             : "circular-background"
         }
-        stroke-dashoffset={"calc(314.1592% * (" + element.nivel + " / 100))"}
+        stroke-dashoffset={"calc(314.1592% * (" + 100 + " / 100))"}
       />
       <image
         href={require("./images/" + element.imgSkill)}
