@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29bfec79aff67471f44a59e3bc6d6c3d",
+    "revision": "5d54b1edef4129fa9714720c95a450ec",
     "url": "/Personal-Resume/index.html"
   },
   {
-    "revision": "9bd6979a207fb5211441",
+    "revision": "342f655324ca9e2d8e3d",
     "url": "/Personal-Resume/static/css/main.18ac097c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Resume/static/js/2.99e7df55.chunk.js.LICENSE"
   },
   {
-    "revision": "9bd6979a207fb5211441",
-    "url": "/Personal-Resume/static/js/main.4a2863d4.chunk.js"
+    "revision": "342f655324ca9e2d8e3d",
+    "url": "/Personal-Resume/static/js/main.fcfaf1ee.chunk.js"
   },
   {
     "revision": "0bf8913e1f370f5cfd13",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Resume/static/media/angular-icon.1a632d2b.png"
   },
   {
-    "revision": "1569e968e4a60ccbd6d548ae3f31de28",
-    "url": "/Personal-Resume/static/media/certificadoIBMModeladoDeSistemasConRational.1569e968.png"
+    "revision": "29da84873a6d7db22d0937ace04a76f6",
+    "url": "/Personal-Resume/static/media/certificadoIBMModeladoDeSistemasConRational.29da8487.png"
   },
   {
     "revision": "c1323353e37944147f5123f794261180",
