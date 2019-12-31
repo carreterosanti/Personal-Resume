@@ -11,11 +11,13 @@ export default function Certificados(props) {
   }
 
   const imgCertificado = (
-    <img
-      style={{ height: "99%", width: "100%" }}
-      src={require("./images/certificadoIBMModeladoDeSistemasConRational.png")}
-      alt="Brochure Icon"
-    />
+    <div style={{ height: "100%", display: "flex", justifyContent: "center" }}>
+      <img
+        style={{ height: "100%", maxWidth: "100%" }}
+        src={require("./images/certificadoIBMModeladoDeSistemasConRational.png")}
+        alt="Brochure Icon"
+      />
+    </div>
   );
 
   return (
