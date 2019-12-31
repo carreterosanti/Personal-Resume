@@ -9,7 +9,7 @@ export default function Perfil(props) {
       <p>
         Estudiante avanzado de Ingeniería de Sistemas, abocado al diseño y
         desarrollo front-end. De actitud proactiva para trabajar en equipo, con
-        atributos de abstraccion y enfoque en la composición de soluciones.
+        atributos de abstracción y enfoque en la composición de soluciones.
         Desarrollador entusiasta de sistemas vanguardistas, atractivos,
         intuitivos y funcionales.
       </p>
