@@ -18,7 +18,7 @@ export default function ExperienciaLaboral(props) {
             calidad del servicio son altos, me permitió desarrollarme en
             aspectos laborales como el trabajo colaborativo, la resolución de
             problemas y el compromiso con el conocimiento sobre el producto y
-            servicio involucrado. Por ultimo tambien puedo resaltar que me ayudó
+            servicio involucrado. Por último también puedo resaltar que me ayudó
             a perfeccionarme en el idioma Inglés.
           </p>
         </div>

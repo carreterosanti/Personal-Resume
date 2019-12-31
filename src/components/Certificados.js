@@ -1,6 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "./Modal";
 
 export default function Certificados(props) {
+  const [showCertificado, setShowCertificado] = useState(false);
+
+  function controllShowCertificado() {
+    setShowCertificado(prevState => {
+      return !prevState;
+    });
+  }
+
+  const imgCertificado = (
+    <img
+      style={{ height: "99%", width: "100%" }}
+      src={require("./images/certificadoIBMModeladoDeSistemasConRational.png")}
+      alt="Brochure Icon"
+    />
+  );
+
   return (
     <div className="middle-section">
       <h2>Certificados</h2>
@@ -15,6 +32,7 @@ export default function Certificados(props) {
             ? "./images/dark-mode-certificate-icon.png"
             : "./images/certificate-icon.png")}
           alt="Brochure Icon"
+          onClick={controllShowCertificado}
         />
       </div>
       <p style={{ marginTop: "-12px", marginLeft: "6px", color: "grey" }}>
@@ -23,6 +41,13 @@ export default function Certificados(props) {
       <div
         className={props.darkMode ? "dark-break-line" : "light-break-line"}
       ></div>
+      <Modal
+        darkMode={props.darkMode}
+        title="Modelado de Sistemas Orientados a Objeto con Rational"
+        content={imgCertificado}
+        show={showCertificado}
+        closeControl={controllShowCertificado}
+      />
     </div>
   );
 }
