@@ -407,6 +407,11 @@ h3 {
   align-items: center;
 }
 
+.certificado-img {
+  height: 100%;
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   .profile-image {
     max-height: 150px;
@@ -612,6 +617,10 @@ h3 {
   .small-text-mobile-a {
     color: #414141;
     font-size: 12px;
+  }
+
+  .certificado-img {
+    width: 100%;
   }
 }
 

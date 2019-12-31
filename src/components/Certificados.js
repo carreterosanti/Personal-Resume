@@ -13,7 +13,7 @@ export default function Certificados(props) {
   const imgCertificado = (
     <div style={{ height: "100%", display: "flex", justifyContent: "center" }}>
       <img
-        style={{ height: "100%", maxWidth: "100%" }}
+        className="certificado-img"
         src={require("./images/certificadoIBMModeladoDeSistemasConRational.png")}
         alt="Brochure Icon"
       />
