@@ -14,7 +14,7 @@ export default function NavBar(props) {
 
       <img
         className="profile-image"
-        src="https://avatars2.githubusercontent.com/u/20425026?s=400&v=4"
+        src={require("./images/profile-picture.jpg")}
         alt="Profile picture."
         onClick={props.setDarkMode}
       />
