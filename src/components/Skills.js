@@ -63,7 +63,7 @@ export default function Skills(props) {
 
   return (
     <div className="middle-section">
-      <h2>Skills</h2>
+      <h2>Tecnologías de Interés</h2>
       <div
         style={{
           display: "flex",
