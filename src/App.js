@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
-      <NavBar setDarkMode={setMode} />
+      <NavBar setDarkMode={setMode} darkMode={darkMode} />
       <Perfil darkMode={darkMode} />
       <Educacion darkMode={darkMode} />
       <Skills darkMode={darkMode} />
