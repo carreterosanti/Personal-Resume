@@ -50,7 +50,7 @@ export default function InfoProyecto(props) {
           </a>
 
           <a
-            style={{ color: "#414141" }}
+            style={props.darkMode ? { color: "#fafafa" } : { color: "#414141" }}
             className="small-text-mobile-a"
             href={props.linkWeb}
           >
@@ -72,7 +72,7 @@ export default function InfoProyecto(props) {
           </a>
 
           <a
-            style={{ color: "#414141" }}
+            style={props.darkMode ? { color: "#fafafa" } : { color: "#414141" }}
             className="small-text-mobile-a"
             href={props.linkRepositorio}
           >
@@ -97,7 +97,7 @@ export default function InfoProyecto(props) {
           </a>
 
           <a
-            style={{ color: "#414141" }}
+            style={props.darkMode ? { color: "#fafafa" } : { color: "#414141" }}
             className="small-text-mobile-a"
             href={props.linkRepositorio}
           >
