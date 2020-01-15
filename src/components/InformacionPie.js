@@ -21,10 +21,14 @@ export default function InformacionPie() {
             src={require("./images/mail-icon.png")}
           />
         </a>
-
-        <p style={{ color: "#f7f7f7", margin: "0px" }}>
-          santiago.carretero@outlook.com
-        </p>
+        <a
+          href="mailto:santiago.carretero@outlook.com"
+          style={{ fontSize: "16px", textDecoration: "none" }}
+        >
+          <p style={{ color: "#f7f7f7", margin: "0px" }}>
+            santiago.carretero@outlook.com
+          </p>
+        </a>
 
         <a
           href="https://www.linkedin.com/in/santiagocarretero"

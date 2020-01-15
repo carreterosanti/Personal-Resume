@@ -8,7 +8,13 @@ export default function NavBar(props) {
         <h1 className="main-name">Santiago Carretero</h1>
         <div style={{ display: "flex" }}></div>
         <p>
-          Mar del Plata, Argentina - 26/12/1995 - santiago.carretero@outlook.com
+          Mar del Plata, Argentina - 26/12/1995 -{" "}
+          <a
+            href="mailto:santiago.carretero@outlook.com"
+            style={{ fontSize: "16px", color: "#333", textDecoration: "none" }}
+          >
+            santiago.carretero@outlook.com
+          </a>
         </p>
       </div>
 
