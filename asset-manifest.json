@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Personal-Resume/static/css/main.a8e458b8.chunk.css",
-    "main.js": "/Personal-Resume/static/js/main.1d595242.chunk.js",
-    "main.js.map": "/Personal-Resume/static/js/main.1d595242.chunk.js.map",
+    "main.css": "/Personal-Resume/static/css/main.0baca1f9.chunk.css",
+    "main.js": "/Personal-Resume/static/js/main.bfa57eb7.chunk.js",
+    "main.js.map": "/Personal-Resume/static/js/main.bfa57eb7.chunk.js.map",
     "runtime-main.js": "/Personal-Resume/static/js/runtime-main.fe31d1ed.js",
     "runtime-main.js.map": "/Personal-Resume/static/js/runtime-main.fe31d1ed.js.map",
-    "static/js/2.328b264f.chunk.js": "/Personal-Resume/static/js/2.328b264f.chunk.js",
-    "static/js/2.328b264f.chunk.js.map": "/Personal-Resume/static/js/2.328b264f.chunk.js.map",
+    "static/js/2.a712d270.chunk.js": "/Personal-Resume/static/js/2.a712d270.chunk.js",
+    "static/js/2.a712d270.chunk.js.map": "/Personal-Resume/static/js/2.a712d270.chunk.js.map",
     "index.html": "/Personal-Resume/index.html",
-    "precache-manifest.a48930cd13bbe86d755391dbe25378cd.js": "/Personal-Resume/precache-manifest.a48930cd13bbe86d755391dbe25378cd.js",
+    "precache-manifest.99ff673e6bd9de02f757aa5e7bbd26e9.js": "/Personal-Resume/precache-manifest.99ff673e6bd9de02f757aa5e7bbd26e9.js",
     "service-worker.js": "/Personal-Resume/service-worker.js",
-    "static/css/main.a8e458b8.chunk.css.map": "/Personal-Resume/static/css/main.a8e458b8.chunk.css.map",
-    "static/js/2.328b264f.chunk.js.LICENSE": "/Personal-Resume/static/js/2.328b264f.chunk.js.LICENSE",
+    "static/css/main.0baca1f9.chunk.css.map": "/Personal-Resume/static/css/main.0baca1f9.chunk.css.map",
+    "static/js/2.a712d270.chunk.js.LICENSE": "/Personal-Resume/static/js/2.a712d270.chunk.js.LICENSE",
     "static/media/android-icon.png": "/Personal-Resume/static/media/android-icon.e0fb0b16.png",
     "static/media/angular-icon.png": "/Personal-Resume/static/media/angular-icon.1a632d2b.png",
     "static/media/certificadoIBMModeladoDeSistemasConRational.png": "/Personal-Resume/static/media/certificadoIBMModeladoDeSistemasConRational.29da8487.png",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fe31d1ed.js",
-    "static/js/2.328b264f.chunk.js",
-    "static/css/main.a8e458b8.chunk.css",
-    "static/js/main.1d595242.chunk.js"
+    "static/js/2.a712d270.chunk.js",
+    "static/css/main.0baca1f9.chunk.css",
+    "static/js/main.bfa57eb7.chunk.js"
   ]
 }
