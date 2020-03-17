@@ -198,17 +198,17 @@ export const listadoReferencias = [
 
 export const wavesReciclajeTandil = [
   {
-    d: "m 200 0 c -70,30 -350,40 0,200 ",
+    d: "m 203 0 c -70,30 -350,40 0,200 ",
     idGradiente: "gradiente1",
     coloresGradientes: ["#151d30", "#1c2c43", "#273951"]
   },
   {
-    d: "m 200 50 c 0,100 -350,60 0,180",
+    d: "m 203 50 c 0,100 -350,60 0,180",
     idGradiente: "gradiente2",
     coloresGradientes: ["#139d8d", "#139d8d", "#36ec7e"]
   },
   {
-    d: "m 200 10 c -100,40 -100,30  0,80",
+    d: "m 203 10 c -100,40 -100,30  0,80",
     idGradiente: "gradiente3",
     coloresGradientes: ["#ffa601", "#ff7d43", "#f95d6a", "#d55087", "#a05095"]
   }
@@ -216,27 +216,27 @@ export const wavesReciclajeTandil = [
 
 export const wavesRedisenoWebBacMono = [
   {
-    d: "m 200 0 c -160,20 -350,120 0,200 ",
+    d: "m 203 0 c -160,20 -350,120 0,200 ",
     idGradiente: "gradiente4",
     coloresGradientes: ["#dcdcdc", "#dcdcdc", "#c1c1c1"]
   },
   {
-    d: "m 200 -10 c -260,20 -225,0 0,80",
+    d: "m 203 -10 c -260,20 -225,0 0,80",
     idGradiente: "gradiente5",
     coloresGradientes: ["#000000", "#161616", "#2f2f2f"]
   },
   {
-    d: "m 200 40 c -30,40 -30,40  0,70",
+    d: "m 203 40 c -30,40 -30,40  0,70",
     idGradiente: "gradiente6",
     coloresGradientes: ["#e40202", "#f8230d", "#e34539"]
   },
   {
-    d: "m 200 90 c -30,40 -30,40  0,70",
+    d: "m 203 90 c -30,40 -30,40  0,70",
     idGradiente: "gradiente7",
     coloresGradientes: ["#a7977d", "#736551", "#473d2f"]
   },
   {
-    d: "m 200 140 c -30,40 -30,40  0,70",
+    d: "m 203 140 c -30,40 -30,40  0,70",
     idGradiente: "gradiente8",
     coloresGradientes: ["#03a9f4", "#52c4f7", "#8bd8fc"]
   }
@@ -244,7 +244,7 @@ export const wavesRedisenoWebBacMono = [
 
 export const wavesReemplazoDeSmartphone = [
   {
-    d: "m 200 0 c -70,80 -380,30 0,200 ",
+    d: "m 203 0 c -70,80 -380,30 0,200 ",
     idGradiente: "gradiente9",
     coloresGradientes: [
       "#1ab99a",
@@ -259,14 +259,27 @@ export const wavesReemplazoDeSmartphone = [
 
 export const wavesAlgoritmoDeTrazas = [
   {
-    d: "m 200 0 c -70,80 -380,30 0,200 ",
+    d: "m 203 0 c -70,80 -380,30 0,200 ",
     idGradiente: "gradiente10",
     coloresGradientes: ["#2C323A", "#353B46", "#3C424E", "#424855", "#474E5C"]
   },
   {
-    d: "m 200 50 c 0,100 -350,60 0,180",
+    d: "m 203 50 c 0,100 -350,60 0,180",
     idGradiente: "gradiente11",
     coloresGradientes: ["#C66EC7", "#C176D2", "#BC7EDD", "#B787E9"]
+  }
+];
+
+export const wavesSincronizacionSistemaGestionTiendaOnline = [
+  {
+    d: "m 203 -10 c -60,80 -310,30 0,200 ",
+    idGradiente: "gradiente12",
+    coloresGradientes: ["#CF3AA7", "#C549A7", "#B652A5", "#894799", "#292F81"]
+  },
+  {
+    d: "m 203 50 c 0,100 -250,60 0,180",
+    idGradiente: "gradiente13",
+    coloresGradientes: ["#2C3357", "#2D3458"]
   }
 ];
 
@@ -317,7 +330,7 @@ export const portfolioRedisenoWebBacMono = {
   ],
   participacion: [],
   desarrollo:
-    "La creación y configuración del proyecto fue realizado mediante el paquete de npm “create-react-app”. Luego la implementación del mismo fue desarrollado en forma integra utilizando la librería React.",
+    "La creación y configuración del proyecto fue realizado mediante el paquete de npm “create-react-app”. Luego la implementación del mismo fue desarrollado en forma íntegra utilizando la librería React.",
   wave: wavesRedisenoWebBacMono,
   linkWeb: "https://carreterosanti.github.io/Bac-Mono-Redesign-Website/"
 };
@@ -371,9 +384,31 @@ export const portfolioAlgoritmoDeTrazas = {
   linkWeb: "https://trazasapplication.herokuapp.com/"
 };
 
+export const portfolioSincronizacionSistemaGestionTiendaOnline = {
+  titulo: "Sincronización de Sistema Gestión y Tienda Online",
+  urlTecnologias: ["java-icon.png"],
+  descripcion:
+    "Aplicación Java para la sincronización automática de ventas y artículos, entre el sistema de gestión Centum Suite y una tienda online de Tienda Nube",
+  descripcionExtendida: [
+    "Aplicación desarrollada para una empresa privada, la cual deseaba sincronizar automáticamente en forma periódica, las ventas y artículos de su tienda online de Tienda Nube, con su sistema de gestión Centum Suite.",
+    "La aplicación obtiene la información necesaria mediante las API que Centum Suite y Tienda Nube proveen, para luego analizar, procesar y actualizar los valores de stock y precio de todos los artículos presentes en la tienda online. Así como también informa al sistema de gestión, Centum Suite, de las ventas realizadas en Tienda Nube.",
+    "Cada sincronización se notifica mediante un correo electrónico, donde se muestra en detalle la actualización de cada artículo y/o venta"
+  ],
+  participacion: [
+    "Mi participación dentro del proyecto comprendió desde la captura de requerimientos, diseño, implementación y configuración para la ejecución automática de la aplicación."
+  ],
+  desarrollo:
+    "El desarrollo de la aplicación se realizó en forma íntegra en Java.",
+  linkRepositorio: "",
+  urlImagenes: ["./centum-tiendanube.png"],
+  wave: wavesSincronizacionSistemaGestionTiendaOnline,
+  linkWeb: ""
+};
+
 export const listadoProyectosPortfolio = [
+  portfolioAlgoritmoDeTrazas,
   portfolioReciclajeTandil,
   portfolioRedisenoWebBacMono,
   portfolioReemplazoDeSmartphone,
-  portfolioAlgoritmoDeTrazas
+  portfolioSincronizacionSistemaGestionTiendaOnline
 ];

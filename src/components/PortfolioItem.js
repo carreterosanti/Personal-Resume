@@ -4,6 +4,9 @@ import WaveGenerator from "./WaveGenerator";
 import { wavesReciclajeTandil } from "./data-file";
 
 export default function PortfolioItem(props) {
+  const imparUltimoItem = props.ultimoEImpar
+    ? "dark-mode-portfolio-last-item-card clickable"
+    : "49%";
   const iconosTecnologias = props.urlTecnologias.map(element => (
     <img
       className="s-skill-img"
@@ -16,7 +19,11 @@ export default function PortfolioItem(props) {
     <div
       className={
         props.darkMode
-          ? "dark-mode-portfolio-item-card clickable"
+          ? props.ultimoEImpar
+            ? "dark-mode-portfolio-last-item-card clickable"
+            : "dark-mode-portfolio-item-card clickable"
+          : props.ultimoEImpar
+          ? "portfolio-last-item-card clickable"
           : "portfolio-item-card clickable"
       }
       onClick={props.onClick}
@@ -24,6 +31,7 @@ export default function PortfolioItem(props) {
       <div
         style={{
           minWidth: "70%",
+          maxWidth: "70%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-evenly"
@@ -47,11 +55,12 @@ export default function PortfolioItem(props) {
         style={{
           display: "flex",
           justifyContent: "flex-end",
-          minWidth: "30%",
+          maxWidth: "200px",
+          minHeight: "200px",
           alignItems: "center"
         }}
       >
-        <svg width="200px" height="200px" fill="none" alignItems="top">
+        <svg width="100%" height="100%" fill="none" alignItems="top">
           <WaveGenerator wave={props.wave} />
         </svg>
       </div>

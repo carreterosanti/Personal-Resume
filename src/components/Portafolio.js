@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PortfolioItem from "./PortfolioItem";
 import "./components-style.css";
-import { listadoProyectosPortfolio } from "./data-file.js";
+import { listadoProyectosPortfolio, listadoReferencias } from "./data-file.js";
 import InfoProyecto from "./InfoProyecto";
 
 export default function Portfolio(props) {
@@ -43,7 +43,17 @@ export default function Portfolio(props) {
     });
   }
 
-  const listadoProyectos = listadoProyectosPortfolio.map(element => {
+  const ultimoItemProyectoImpar =
+    listadoProyectosPortfolio.length % 2
+      ? listadoProyectosPortfolio.length - 1
+      : undefined;
+
+  const listadoProyectos = listadoProyectosPortfolio.map((element, i) => {
+    var esUltimoEImpar =
+      ultimoItemProyectoImpar !== undefined && ultimoItemProyectoImpar === i
+        ? true
+        : false;
+
     return (
       <PortfolioItem
         titulo={element.titulo}
@@ -51,6 +61,7 @@ export default function Portfolio(props) {
         descripcion={element.descripcion}
         darkMode={props.darkMode}
         wave={element.wave}
+        ultimoEImpar={esUltimoEImpar}
         onClick={() => {
           controllInfoProyecto(
             element.titulo,
@@ -73,7 +84,7 @@ export default function Portfolio(props) {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-between",
+          justifyContent: "space-around",
           flexWrap: "wrap",
           marginTop: "18px",
           marginBottom: "32px"
