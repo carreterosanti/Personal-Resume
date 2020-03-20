@@ -24,10 +24,10 @@ export default function Cursos(props) {
           darkMode={props.darkMode}
           linkref="https://scrimba.com/g/ges6"
         />
-        <div
-          className={props.darkMode ? "dark-break-line" : "light-break-line"}
-        ></div>
       </div>
+      <div
+        className={props.darkMode ? "dark-break-line" : "light-break-line"}
+      ></div>
     </div>
   );
 }

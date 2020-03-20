@@ -3,6 +3,16 @@ import React from "react";
 export default function InformacionPie() {
   return (
     <div className="bottom-section">
+      <a
+        href="https://drive.google.com/file/d/14Hl7srjXj6DgEZdZ1g_GXow7YXEojxpQ/view?usp=sharing"
+        style={{ maxHeight: "32px" }}
+        target="_blank"
+      >
+        <img
+          className="bottom-icon"
+          src={require("./images/download-resume-pdf-icon.png")}
+        />
+      </a>
       <div
         style={{
           display: "flex",
