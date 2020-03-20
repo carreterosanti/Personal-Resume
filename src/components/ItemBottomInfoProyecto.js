@@ -30,6 +30,7 @@ export default function ItemBottomInfoProyecto(props) {
       <a
         style={{ width: "25px", height: "25px", marginRight: "5px" }}
         href={props.linkWeb}
+        target="_blank"
       >
         {imagenIcon}
       </a>
@@ -37,6 +38,7 @@ export default function ItemBottomInfoProyecto(props) {
         style={props.darkMode ? { color: "#fafafa" } : { color: "#414141" }}
         className="small-text-mobile-a"
         href={props.linkWeb}
+        target="_blank"
       >
         {textLink} {props.titulo}
       </a>
