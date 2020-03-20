@@ -287,7 +287,7 @@ export const portfolioReciclajeTandil = {
   titulo: "Reciclaje Tandil App",
   urlTecnologias: ["android-icon.png", "java-icon.png"],
   descripcion:
-    "Aplicacion Android que permite visualizar y administrar los elementos reciclados de un usuario",
+    "Aplicación Android que permite visualizar y administrar los elementos reciclados de un usuario",
   descripcionExtendida: [
     "Este proyecto corresponde al trabajo final de la materia “Introducción a la Programación de Dispositivos Móviles” de la carrera de Ingeniería de Sistemas de la Universidad Nacional del Centro de la Provincia de Buenos Aires y consta en el desarrollo de una aplicación para android, la cual permite visualizar y manejar los reciclados de un usuario. Dicha aplicación se conecta con un servidor provisto por la cátedra el cual permite, almacenar nuevos usuarios, almacenar nuevos reciclados y consultar la lista y total de reciclados de un usuario dado."
   ],
@@ -316,7 +316,7 @@ export const portfolioRedisenoWebBacMono = {
   titulo: "Rediseño Web Bac Mono",
   urlTecnologias: ["react-icon.png", "js-icon.png", "css-icon.png"],
   descripcion:
-    "Resideño del inicio de la pagina web correspondiente a la empresa britanica de fabricacion de superdeportivos BAC",
+    "Rediseño del inicio de la página web correspondiente a la empresa británica de fabricación de superdeportivos BAC",
   descripcionExtendida: [
     "El objetivo de este proyecto fue experimentar desarrollando con la librería React y el módulo de CSS “flexbox”.",
     "Comencé rediseñando la barra de navegación haciéndola más simple y extendida, luego con el objetivo de evitar el clásico carrusel de fotos presente en todos los sitios web de marcas de automóviles, pero respetando la información presentada en la versión original del sitio web, opte por una grilla compuesta por 4 cuadrantes para presentar la información.",
@@ -366,7 +366,7 @@ export const portfolioAlgoritmoDeTrazas = {
   titulo: "Algoritmo de Trazas",
   urlTecnologias: ["java-icon.png", "angular-icon.png"],
   descripcion:
-    "Herramienta web que permite analizar la dependencia de datos a partir de un codigo fuente correspondiente a una iteración",
+    "Herramienta web que permite analizar la dependencia de datos a partir de un código fuente correspondiente a una iteración",
   descripcionExtendida: [
     "En este trabajo corresponde a un proyecto evaluador final de la materia “Arquitectura de Computadores y Técnicas Digitales” de la carrera Ingeniería de Sistemas de la Universidad Nacional de Centro de la Provincia de Buenos Aires y consta en el desarrollo de una herramienta web, con el objetivo de analizar la dependencia de datos a partir de un código fuente correspondiente a una iteración.",
     "Dicha herramienta analiza el código fuente, genera un grafo denominado “Grafo Temporal” a partir de las dependencia de datos de tipo RAW y detecta las trazas que contienen ciclos y/o bucles."
@@ -392,7 +392,7 @@ export const portfolioSincronizacionSistemaGestionTiendaOnline = {
   descripcionExtendida: [
     "Aplicación desarrollada para una empresa privada, la cual deseaba sincronizar automáticamente en forma periódica, las ventas y artículos de su tienda online de Tienda Nube, con su sistema de gestión Centum Suite.",
     "La aplicación obtiene la información necesaria mediante las API que Centum Suite y Tienda Nube proveen, para luego analizar, procesar y actualizar los valores de stock y precio de todos los artículos presentes en la tienda online. Así como también informa al sistema de gestión, Centum Suite, de las ventas realizadas en Tienda Nube.",
-    "Cada sincronización se notifica mediante un correo electrónico, donde se muestra en detalle la actualización de cada artículo y/o venta"
+    "Cada sincronización se notifica mediante un correo electrónico, donde se muestra en detalle la actualización de cada artículo y/o venta."
   ],
   participacion: [
     "Mi participación dentro del proyecto comprendió desde la captura de requerimientos, diseño, implementación y configuración para la ejecución automática de la aplicación."
