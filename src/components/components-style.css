@@ -355,14 +355,14 @@ h3 {
 }
 
 .work-experience-div {
-  display: flex;
   align-content: center;
   align-items: center;
 }
 
 .work-experience-icon {
   width: 100%;
-  min-width: 130px;
+  min-width: 120px;
+  max-width: 120px;
 }
 
 .interes-icon {

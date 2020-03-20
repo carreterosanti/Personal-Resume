@@ -6,12 +6,40 @@ export default function ExperienciaLaboral(props) {
       <h2>Experiencia Laboral </h2>
       <div className="contenido-section">
         <div className="work-experience-div">
-          <div style={{ flexGrow: 2 }}>
-            <p>
+          <div
+            style={{ display: "flex", alignItems: "center", marginTop: "16px" }}
+          >
+            <p
+              style={{
+                flexGrow: 2,
+                marginRight: "25px",
+                marginBottom: "0px",
+                marginTop: "0px"
+              }}
+            >
               Durante la temporada de invierno de 2018 partícipe del programa de
               intercambio “Work and Travel”, en Aspen CO Estados Unidos, donde
               trabajé como “back server” en el restaurante Element 47.
             </p>
+            <a
+              href="https://www.thelittlenell.com/dining/element-47"
+              target="_blank"
+              style={{
+                flexGrow: 1,
+                marginRight: "20px",
+                marginBottom: "-15px"
+              }}
+            >
+              <img
+                className="work-experience-icon"
+                src={require(props.darkMode
+                  ? "./images/dark-mode-element47-icon.png"
+                  : "./images/element47-icon.png")}
+                alt="Profile picture."
+              />
+            </a>
+          </div>
+          <div style={{ alignSelf: "flex-end" }}>
             <p>
               A pesar de que es una experiencia laboral en el ámbito
               gastronómico y no en el desarrollo de software, puedo destacar que
@@ -22,20 +50,6 @@ export default function ExperienciaLaboral(props) {
               sobre el producto y servicio involucrado. Por último también puedo
               resaltar que me ayudó a perfeccionarme en el idioma Inglés.
             </p>
-          </div>
-          <div style={{ flexGrow: 1, margin: "0px 30px" }}>
-            <a
-              href="https://www.thelittlenell.com/dining/element-47"
-              target="_blank"
-            >
-              <img
-                className="work-experience-icon"
-                src={require(props.darkMode
-                  ? "./images/dark-mode-element47-icon.png"
-                  : "./images/element47-icon.png")}
-                alt="Profile picture."
-              />
-            </a>
           </div>
         </div>
         <p style={{ marginTop: "-12px", marginLeft: "6px", color: "grey" }}>
