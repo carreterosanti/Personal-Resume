@@ -24,7 +24,10 @@ export default function ExperienciaLaboral(props) {
             </p>
           </div>
           <div style={{ flexGrow: 1, margin: "0px 30px" }}>
-            <a href="https://www.thelittlenell.com/dining/element-47">
+            <a
+              href="https://www.thelittlenell.com/dining/element-47"
+              target="_blank"
+            >
               <img
                 className="work-experience-icon"
                 src={require(props.darkMode
