@@ -28,15 +28,7 @@ export default function PortfolioItem(props) {
       }
       onClick={props.onClick}
     >
-      <div
-        style={{
-          minWidth: "70%",
-          maxWidth: "70%",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-evenly"
-        }}
-      >
+      <div className="div-left-content-last-item-card">
         <h3 className="portfolio-item-titulo">{props.titulo}</h3>
         <p className="portfolio-item-descripcion">{props.descripcion}</p>
         <div
