@@ -45,6 +45,7 @@ export default function Certificados(props) {
         </p>
       </div>
       <div
+        id="portafolio"
         className={props.darkMode ? "dark-break-line" : "light-break-line"}
       ></div>
       <Modal
