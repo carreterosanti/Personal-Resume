@@ -6,32 +6,37 @@ export default function Skills(props) {
       imgSkill: "java-icon.png",
       alt: "Icono Java Lenguaje de Programación",
       nivel: "90",
-      color: "#1565C0"
+      color: "#1565C0",
+      nombre: "Java"
     },
 
     {
       imgSkill: "js-icon.png",
       alt: "Icono JavaScript Lenguaje de Programación",
       nivel: "60",
-      color: "#F0DB4F"
+      color: "#F0DB4F",
+      nombre: "JavaScript"
     },
     {
       imgSkill: "css-icon.png",
       alt: "Icono CSS Lenguaje de Programación",
       nivel: "60",
-      color: "#0277BD"
+      color: "#0277BD",
+      nombre: "CSS"
     },
     {
       imgSkill: "react-icon.png",
       alt: "Icono React Lenguaje de Programación",
       nivel: "60",
-      color: "#00D8FF"
+      color: "#00D8FF",
+      nombre: "React.js"
     },
     {
       imgSkill: "android-icon.png",
       alt: "Icono Android",
       nivel: "75",
-      color: "#3ddc84"
+      color: "#3ddc84",
+      nombre: "Android SDK"
     },
     {
       imgSkill: props.darkMode
@@ -39,26 +44,26 @@ export default function Skills(props) {
         : "github-icon.png",
       alt: "Icono Github",
       nivel: "70",
-      color: props.darkMode ? "#F7F7F7" : "#24292E"
+      color: props.darkMode ? "#F7F7F7" : "#24292E",
+      nombre: "Github"
     }
   ];
 
   const iconosSkills = listadoSkill.map(element => (
-    <svg className={props.darkMode ? "dark-mode-svg-skills" : "svg-skills"}>
-      <circle className="progress-bar" stroke={element.color} />
-      <circle
-        className={
-          props.darkMode
-            ? "dark-mode-circular-background"
-            : "circular-background"
-        }
-        stroke-dashoffset={"calc(314.1592% * (" + 100 + " / 100))"}
-      />
-      <image
-        href={require("./images/" + element.imgSkill)}
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        margin: "0px 20px"
+      }}
+    >
+      <img
+        src={require("./images/" + element.imgSkill)}
         className="svg-image"
       />
-    </svg>
+      <p style={{ marginTop: "5px" }}>{element.nombre}</p>
+    </div>
   ));
 
   return (
@@ -69,9 +74,9 @@ export default function Skills(props) {
           display: "flex",
           alignItems: "center",
           alignContent: "space-around",
-          justifyContent: "space-evenly",
+          justifyContent: "space-around",
           flexWrap: "wrap",
-          marginTop: "16px"
+          marginTop: "25px"
         }}
       >
         {iconosSkills}

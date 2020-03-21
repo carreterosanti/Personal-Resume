@@ -228,11 +228,8 @@ h3 {
 }
 
 .svg-image {
-  transform: rotate(90deg) translate(0, -100%) translate(100%, 0) scale(-1, 1);
-  x: 30;
-  y: 30;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 .progress-bar {
@@ -602,9 +599,6 @@ h3 {
   }
 
   .svg-image {
-    transform: rotate(90deg) translate(0, -100%) translate(100%, 0) scale(-1, 1);
-    x: 25;
-    y: 25;
     height: 50px;
     width: 50px;
   }
