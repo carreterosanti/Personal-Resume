@@ -11,11 +11,11 @@ export default function Skills(props) {
     },
 
     {
-      imgSkill: "js-icon.png",
-      alt: "Icono JavaScript Lenguaje de Programación",
-      nivel: "60",
-      color: "#F0DB4F",
-      nombre: "JavaScript"
+      imgSkill: "android-icon.png",
+      alt: "Icono Android",
+      nivel: "75",
+      color: "#3ddc84",
+      nombre: "Android SDK"
     },
     {
       imgSkill: "css-icon.png",
@@ -32,11 +32,11 @@ export default function Skills(props) {
       nombre: "React.js"
     },
     {
-      imgSkill: "android-icon.png",
-      alt: "Icono Android",
-      nivel: "75",
-      color: "#3ddc84",
-      nombre: "Android SDK"
+      imgSkill: "js-icon.png",
+      alt: "Icono JavaScript Lenguaje de Programación",
+      nivel: "60",
+      color: "#F0DB4F",
+      nombre: "JavaScript"
     },
     {
       imgSkill: props.darkMode
