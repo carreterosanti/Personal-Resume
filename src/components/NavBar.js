@@ -22,9 +22,8 @@ export default function NavBar(props) {
           </a>
         </p>
       </div>
-
       <img
-        className="profile-image"
+        className="profile-image swing"
         src={require("./images/profile-picture.jpg")}
         alt="Profile picture."
         onClick={props.setDarkMode}
