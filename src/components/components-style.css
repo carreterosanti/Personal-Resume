@@ -197,6 +197,13 @@ h3 {
   margin-left: 15px;
 }
 
+.grow:hover {
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
 .portfolio-item-card {
   display: flex;
   justify-content: space-between;
@@ -206,6 +213,7 @@ h3 {
   background-color: #ffffff;
   max-width: 48%;
   min-width: 48%;
+  transition: background-color 1s ease-in-out;
 }
 
 .dark-mode-portfolio-item-card {
@@ -217,6 +225,7 @@ h3 {
   background-color: #202020;
   max-width: 48%;
   min-width: 48%;
+  transition: background-color 1s ease-in-out;
 }
 
 .div-left-content-last-item-card {

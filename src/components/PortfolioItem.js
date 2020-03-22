@@ -20,11 +20,11 @@ export default function PortfolioItem(props) {
       className={
         props.darkMode
           ? props.ultimoEImpar
-            ? "dark-mode-portfolio-last-item-card clickable"
-            : "dark-mode-portfolio-item-card clickable"
+            ? "dark-mode-portfolio-last-item-card grow"
+            : "dark-mode-portfolio-item-card grow"
           : props.ultimoEImpar
-          ? "portfolio-last-item-card clickable"
-          : "portfolio-item-card clickable"
+          ? "portfolio-last-item-card grow"
+          : "portfolio-item-card grow"
       }
       onClick={props.onClick}
     >
