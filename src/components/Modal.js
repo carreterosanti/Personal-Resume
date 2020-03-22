@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function Modal(props) {
   const showHideClassName = props.show
     ? "modal display-block"
     : "modal display-none";
+
+  const lockScroll = props.show
+    ? (document.body.style.overflow = "hidden")
+    : (document.body.style.overflow = "unset");
 
   return (
     <div className={showHideClassName}>
