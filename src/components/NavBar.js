@@ -11,10 +11,11 @@ export default function NavBar(props) {
           Mar del Plata, Argentina - 26/12/1995 -{" "}
           <a
             href="mailto:santiago.carretero@outlook.com"
+            className="clickable-text"
             style={
               props.darkMode
-                ? { fontSize: "16px", color: "#fafafa", textDecoration: "none" }
-                : { fontSize: "16px", color: "#333", textDecoration: "none" }
+                ? { fontSize: "16px", color: "#fafafa" }
+                : { fontSize: "16px", color: "#333" }
             }
           >
             santiago.carretero@outlook.com

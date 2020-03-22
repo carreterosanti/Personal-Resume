@@ -5,6 +5,7 @@ export default function InformacionPie() {
     <div className="bottom-section">
       <a
         href="https://drive.google.com/file/d/14Hl7srjXj6DgEZdZ1g_GXow7YXEojxpQ/view?usp=sharing"
+        className="clickable"
         style={{ maxHeight: "32px" }}
         target="_blank"
       >
@@ -24,6 +25,7 @@ export default function InformacionPie() {
       >
         <a
           href="mailto:santiago.carretero@outlook.com"
+          className="clickable"
           style={{ maxHeight: "32px" }}
           target="_blank"
         >
@@ -34,16 +36,16 @@ export default function InformacionPie() {
         </a>
         <a
           href="mailto:santiago.carretero@outlook.com"
-          style={{ fontSize: "16px", textDecoration: "none" }}
+          className="clickable-text"
+          style={{ fontSize: "16px", color: "#f7f7f7" }}
           target="_blank"
         >
-          <p style={{ color: "#f7f7f7", margin: "0px" }}>
-            santiago.carretero@outlook.com
-          </p>
+          <p style={{ margin: "0px" }}>santiago.carretero@outlook.com</p>
         </a>
 
         <a
           href="https://www.linkedin.com/in/santiagocarretero"
+          className="clickable"
           style={{ maxHeight: "32px" }}
           target="_blank"
         >
@@ -54,6 +56,7 @@ export default function InformacionPie() {
         </a>
         <a
           href="https://vsco.co/carreterosanti"
+          className="clickable"
           style={{ maxHeight: "32px" }}
           target="_blank"
         >

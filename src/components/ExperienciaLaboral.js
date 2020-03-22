@@ -24,6 +24,7 @@ export default function ExperienciaLaboral(props) {
             <a
               href="https://www.thelittlenell.com/dining/element-47"
               target="_blank"
+              className="clickable"
               style={{
                 flexGrow: 1,
                 marginRight: "20px",

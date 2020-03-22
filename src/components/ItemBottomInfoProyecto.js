@@ -36,7 +36,7 @@ export default function ItemBottomInfoProyecto(props) {
       </a>
       <a
         style={props.darkMode ? { color: "#fafafa" } : { color: "#414141" }}
-        className="small-text-mobile-a"
+        className="small-text-mobile-a clickable-text"
         href={props.linkWeb}
         target="_blank"
       >

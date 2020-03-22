@@ -201,8 +201,22 @@ h3 {
   margin-left: 25px;
 }
 
+.clickable-text {
+  text-decoration: none;
+}
+
+.clickable-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.clickable {
+  opacity: 0.8;
+}
+
 .clickable:hover {
   cursor: pointer;
+  opacity: 1;
 }
 
 .svg-skills {
