@@ -49,12 +49,26 @@ export default function PortfolioItem(props) {
           justifyContent: "flex-end",
           maxWidth: "200px",
           minHeight: "200px",
-          alignItems: "center"
+          alignItems: "center",
+          position: "relative"
         }}
       >
         <svg width="100%" height="100%" fill="none" alignItems="top">
           <WaveGenerator wave={props.wave} />
         </svg>
+        <div style={{ position: "absolute", bottom: 0 }}>
+          <img
+            style={{
+              maxWidth: "18px",
+              margin: "25px"
+            }}
+            src={
+              props.darkMode
+                ? require("./images/dark-mode-more-info-icon.png")
+                : require("./images/more-info-icon.png")
+            }
+          />
+        </div>
       </div>
     </div>
   );

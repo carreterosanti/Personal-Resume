@@ -50,7 +50,7 @@ export default function Intereses(props) {
         className="interes-icon"
         src={require("./images/" + element.srcInteresImg)}
       />
-      <h4 style={{ margin: "1px 0px", fontWeight: "450" }}>{element.label}</h4>
+      <p style={{ margin: "5px 0px", fontSize: "16px" }}>{element.label}</p>
     </div>
   ));
 
