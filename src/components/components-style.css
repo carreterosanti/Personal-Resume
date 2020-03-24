@@ -760,6 +760,12 @@ h3 {
     transition: 0.3s;
   }
 
+  .complete-line-for-small-with {
+    min-width: 100%;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
   .main-name {
     font-size: 35px;
     font-weight: 450;

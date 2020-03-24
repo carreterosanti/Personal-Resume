@@ -9,6 +9,12 @@ export default function Modal(props) {
     ? (document.body.style.overflow = "hidden")
     : (document.body.style.overflow = "unset");
 
+  let modalDiv = document.getElementById("contentModalDiv");
+  if (props.show) {
+    console.log();
+    modalDiv.scrollTop(0, 0);
+  }
+
   return (
     <div className={showHideClassName}>
       <div
@@ -37,7 +43,10 @@ export default function Modal(props) {
           style={{ margin: "0px" }}
           className={props.darkMode ? "dark-break-line" : "light-break-line"}
         ></div>
-        <div style={{ overflowY: "scroll", padding: "20px", maxWidth: "100%" }}>
+        <div
+          id="contentModalDiv"
+          style={{ overflowY: "scroll", padding: "20px", maxWidth: "100%" }}
+        >
           {props.content}
         </div>
       </div>

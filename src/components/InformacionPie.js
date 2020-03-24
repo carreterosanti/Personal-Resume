@@ -23,26 +23,30 @@ export default function InformacionPie() {
           flexWrap: "wrap"
         }}
       >
-        <a
-          href="mailto:santiago.carretero@outlook.com"
-          className="clickable"
-          style={{ maxHeight: "32px" }}
-          target="_blank"
+        <div
+          className="complete-line-for-small-with"
+          style={{ display: "flex", alignItems: "center" }}
         >
-          <img
-            className="bottom-icon"
-            src={require("./images/mail-icon.png")}
-          />
-        </a>
-        <a
-          href="mailto:santiago.carretero@outlook.com"
-          className="clickable-text"
-          style={{ fontSize: "16px", color: "#f7f7f7" }}
-          target="_blank"
-        >
-          <p style={{ margin: "0px" }}>santiago.carretero@outlook.com</p>
-        </a>
-
+          <a
+            href="mailto:santiago.carretero@outlook.com"
+            className="clickable"
+            style={{ maxHeight: "32px" }}
+            target="_blank"
+          >
+            <img
+              className="bottom-icon"
+              src={require("./images/mail-icon.png")}
+            />
+          </a>
+          <a
+            href="mailto:santiago.carretero@outlook.com"
+            className="clickable-text"
+            style={{ fontSize: "16px", color: "#f7f7f7" }}
+            target="_blank"
+          >
+            <p style={{ margin: "0px" }}>santiago.carretero@outlook.com</p>
+          </a>
+        </div>
         <a
           href="https://www.linkedin.com/in/santiagocarretero"
           className="clickable"
