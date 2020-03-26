@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Personal-Resume/static/css/main.eb1b1391.chunk.css",
-    "main.js": "/Personal-Resume/static/js/main.bf9ff6e8.chunk.js",
-    "main.js.map": "/Personal-Resume/static/js/main.bf9ff6e8.chunk.js.map",
+    "main.js": "/Personal-Resume/static/js/main.66f8b201.chunk.js",
+    "main.js.map": "/Personal-Resume/static/js/main.66f8b201.chunk.js.map",
     "runtime-main.js": "/Personal-Resume/static/js/runtime-main.fe31d1ed.js",
     "runtime-main.js.map": "/Personal-Resume/static/js/runtime-main.fe31d1ed.js.map",
     "static/js/2.ae0c9dc3.chunk.js": "/Personal-Resume/static/js/2.ae0c9dc3.chunk.js",
     "static/js/2.ae0c9dc3.chunk.js.map": "/Personal-Resume/static/js/2.ae0c9dc3.chunk.js.map",
     "index.html": "/Personal-Resume/index.html",
-    "precache-manifest.aa355ef3e3db44aaf7bd310b91271134.js": "/Personal-Resume/precache-manifest.aa355ef3e3db44aaf7bd310b91271134.js",
+    "precache-manifest.eacc030272f8e97021139862168e8628.js": "/Personal-Resume/precache-manifest.eacc030272f8e97021139862168e8628.js",
     "service-worker.js": "/Personal-Resume/service-worker.js",
     "static/css/main.eb1b1391.chunk.css.map": "/Personal-Resume/static/css/main.eb1b1391.chunk.css.map",
     "static/js/2.ae0c9dc3.chunk.js.LICENSE": "/Personal-Resume/static/js/2.ae0c9dc3.chunk.js.LICENSE",
@@ -17,7 +17,7 @@
     "static/media/certificadoIBMModeladoDeSistemasConRational.png": "/Personal-Resume/static/media/certificadoIBMModeladoDeSistemasConRational.29da8487.png",
     "static/media/java-fx-icon.png": "/Personal-Resume/static/media/java-fx-icon.c1323353.png",
     "static/media/js-icon.png": "/Personal-Resume/static/media/js-icon.82f4b91e.png",
-    "static/media/profile-picture.jpg": "/Personal-Resume/static/media/profile-picture.f2409f7e.jpg",
+    "static/media/profile-picture.jpg": "/Personal-Resume/static/media/profile-picture.c3f60ac7.jpg",
     "static/media/react-icon.png": "/Personal-Resume/static/media/react-icon.47ce6e77.png",
     "static/media/redesign-web-bac-mono.png": "/Personal-Resume/static/media/redesign-web-bac-mono.3f72acd2.png",
     "static/media/reemplazo-de-smartphones.png": "/Personal-Resume/static/media/reemplazo-de-smartphones.7cb20968.png",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.fe31d1ed.js",
     "static/js/2.ae0c9dc3.chunk.js",
     "static/css/main.eb1b1391.chunk.css",
-    "static/js/main.bf9ff6e8.chunk.js"
+    "static/js/main.66f8b201.chunk.js"
   ]
 }
