@@ -8,10 +8,10 @@ export default function Perfil(props) {
       <h2>Perfil</h2>
       <div className="contenido-section">
         <p>
-          Estudiante avanzado de Ingeniería de Sistemas, abocado al diseño y
-          desarrollo de software. De actitud proactiva para trabajar en equipo,
+          Desarrollador de software, actualmente finalizando la carrera de grado
+          Ingeniería de Sistemas. De actitud proactiva para trabajar en equipo,
           con atributos de abstracción y enfoque en la composición de
-          soluciones. Desarrollador entusiasta de sistemas vanguardistas,
+          soluciones. Apasionado por el desarrollo de sistemas vanguardistas,
           atractivos, intuitivos y funcionales.
         </p>
       </div>

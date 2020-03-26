@@ -9,12 +9,6 @@ export default function Modal(props) {
     ? (document.body.style.overflow = "hidden")
     : (document.body.style.overflow = "unset");
 
-  let modalDiv = document.getElementById("contentModalDiv");
-  if (props.show) {
-    console.log();
-    modalDiv.scrollTop(0, 0);
-  }
-
   return (
     <div className={showHideClassName}>
       <div
