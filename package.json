@@ -1,6 +1,6 @@
 {
   "name": "personal-resume",
-  "homepage": "http://carreterosanti.github.io/Personal-Resume",
+  "homepage": "http://carreterosanti.github.io/personal-resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
