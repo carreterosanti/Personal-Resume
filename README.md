@@ -1,3 +1,3 @@
 ## Web Personal - Santiago Carretero
 
-Link: https://carreterosanti.github.io/personal-resume/
+Link: https://carreterosanti.github.io/Personal-Resume/
