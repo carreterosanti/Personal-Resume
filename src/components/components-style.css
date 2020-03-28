@@ -523,12 +523,22 @@ h3 {
   align-items: center;
 }
 
+.plus-icon-portfolio {
+  display: none;
+  position: absolute;
+  bottom: 0;
+}
+
 .certificado-img {
   height: 100%;
   max-width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
+  .plus-icon-portfolio {
+    display: block;
+  }
+
   .div-left-content-last-item-card {
     max-width: 70%;
   }

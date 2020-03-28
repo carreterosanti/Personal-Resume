@@ -56,7 +56,7 @@ export default function PortfolioItem(props) {
         <svg width="100%" height="100%" fill="none" alignItems="top">
           <WaveGenerator wave={props.wave} />
         </svg>
-        <div style={{ position: "absolute", bottom: 0 }}>
+        <div className="plus-icon-portfolio">
           <img
             style={{
               maxWidth: "18px",
