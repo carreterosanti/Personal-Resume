@@ -29,7 +29,8 @@ export default function Modal(props) {
             src={require(props.darkMode
               ? "./images/dark-mode-close-icon.png"
               : "./images/close-icon.png")}
-            alt="Boton para cerrar ventana"
+            alt="Cerrar"
+            title="Cerrar"
             onClick={props.closeControl}
           />
         </div>

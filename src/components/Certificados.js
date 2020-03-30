@@ -36,8 +36,9 @@ export default function Certificados(props) {
             src={require(props.darkMode
               ? "./images/dark-mode-certificate-icon.png"
               : "./images/certificate-icon.png")}
-            alt="Brochure Icon"
             onClick={controllShowCertificado}
+            alt="Imagen Certificado"
+            title="Imagen Certificado"
           />
         </div>
         <p style={{ marginTop: "-12px", marginLeft: "6px", color: "grey" }}>

@@ -12,6 +12,8 @@ export default function InformacionPie() {
         <img
           className="bottom-icon"
           src={require("./images/download-resume-pdf-icon.png")}
+          alt="Descargar CV"
+          title="Descargar CV"
         />
       </a>
       <div
@@ -36,6 +38,8 @@ export default function InformacionPie() {
             <img
               className="bottom-icon"
               src={require("./images/mail-icon.png")}
+              alt="Enviar mail a santiago.carretero@outlook.com"
+              title="Enviar mail a santiago.carretero@outlook.com"
             />
           </a>
           <a
@@ -56,6 +60,8 @@ export default function InformacionPie() {
           <img
             className="bottom-icon"
             src={require("./images/linkedIn-icon.png")}
+            alt="LinkedIn"
+            title="LinkedIn"
           />
         </a>
         <a
@@ -67,6 +73,8 @@ export default function InformacionPie() {
           <img
             className="m-bottom-icon"
             src={require("./images/vsco-icon.png")}
+            alt="VSCO"
+            title="VSCO"
           />
         </a>
       </div>

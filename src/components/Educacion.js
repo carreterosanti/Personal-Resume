@@ -25,7 +25,8 @@ export default function Educacion(props) {
             src={require(props.darkMode
               ? "./images/dark-mode-check-list-icon.png"
               : "./images/check-list-icon.png")}
-            alt="Brochure Icon"
+            alt="Listado Progreso Materias"
+            title="Listado Progreso Materias"
             onClick={controllShowListadoMaterias}
           />
         </div>

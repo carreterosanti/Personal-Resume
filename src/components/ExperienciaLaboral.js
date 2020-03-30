@@ -36,7 +36,8 @@ export default function ExperienciaLaboral(props) {
                 src={require(props.darkMode
                   ? "./images/dark-mode-element47-icon.png"
                   : "./images/element47-icon.png")}
-                alt="Profile picture."
+                alt="Element 47"
+                title="Element 47"
               />
             </a>
           </div>

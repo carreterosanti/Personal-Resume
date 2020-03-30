@@ -8,7 +8,8 @@ export default function ItemBottomInfoProyecto(props) {
         src={require(props.darkMode
           ? "./images/dark-mode-www-icon.png"
           : "./images/www-icon.png")}
-        alt="Brochure Icon"
+        alt="Link Sitio Web Proyecto"
+        title="Link Sitio Web Proyecto"
       />
     ) : props.type === "repo" ? (
       <img
@@ -16,7 +17,8 @@ export default function ItemBottomInfoProyecto(props) {
         src={require(props.darkMode
           ? "./images/dark-mode-repository-code-icon.png"
           : "./images/repository-code-icon.png")}
-        alt="Brochure Icon"
+        alt="Link Repositorio Proyecto"
+        title="Link Repositorio Proyecto"
       />
     ) : (
       <></>
