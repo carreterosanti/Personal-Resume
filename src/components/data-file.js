@@ -183,10 +183,6 @@ export const listadoReferencias = [
     condicion: "Aprobada pasada"
   },
   {
-    nombreMateria: "Cursada y final aprobadas, pendientes de pasar la nota",
-    condicion: "Aprobada a pasar"
-  },
-  {
     nombreMateria: "Final pendiente",
     condicion: "Final restante"
   },
