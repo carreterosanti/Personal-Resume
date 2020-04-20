@@ -35,10 +35,10 @@ export default function ExperienciaLaboral(props) {
         >
           Febrero 2020 - Marzo 2020
         </p>
-        <div
-          className={props.darkMode ? "dark-break-line" : "light-break-line"}
-        ></div>
       </div>
+      <div
+        className={props.darkMode ? "dark-break-line" : "light-break-line"}
+      ></div>
     </div>
   );
 }
