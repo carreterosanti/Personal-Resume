@@ -5,7 +5,7 @@ export default function Certificados(props) {
   const [showCertificado, setShowCertificado] = useState(false);
 
   function controllShowCertificado() {
-    setShowCertificado(prevState => {
+    setShowCertificado((prevState) => {
       return !prevState;
     });
   }
@@ -46,7 +46,6 @@ export default function Certificados(props) {
         </p>
       </div>
       <div
-        id="portafolio"
         className={props.darkMode ? "dark-break-line" : "light-break-line"}
       ></div>
       <Modal

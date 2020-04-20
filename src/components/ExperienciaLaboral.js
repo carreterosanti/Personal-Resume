@@ -37,6 +37,7 @@ export default function ExperienciaLaboral(props) {
         </p>
       </div>
       <div
+        id="portafolio"
         className={props.darkMode ? "dark-break-line" : "light-break-line"}
       ></div>
     </div>
