@@ -1,13 +1,12 @@
 import React from "react";
 import "./components-style.css";
 import WaveGenerator from "./WaveGenerator";
-import { wavesReciclajeTandil } from "./data-file";
 
 export default function PortfolioItem(props) {
-  const imparUltimoItem = props.ultimoEImpar
+  /*const imparUltimoItem = props.ultimoEImpar
     ? "dark-mode-portfolio-last-item-card clickable"
-    : "49%";
-  const iconosTecnologias = props.urlTecnologias.map(element => (
+    : "49%";*/
+  const iconosTecnologias = props.urlTecnologias.map((element) => (
     <img
       className="s-skill-img"
       src={require("./images/" + element)}
@@ -37,7 +36,7 @@ export default function PortfolioItem(props) {
             alignItems: "center",
             marginTop: "16px",
             marginRight: "12px",
-            marginBottom: "16px"
+            marginBottom: "16px",
           }}
         >
           {iconosTecnologias}
@@ -50,7 +49,7 @@ export default function PortfolioItem(props) {
           maxWidth: "200px",
           minHeight: "200px",
           alignItems: "center",
-          position: "relative"
+          position: "relative",
         }}
       >
         <svg width="100%" height="100%" fill="none" alignItems="top">
@@ -60,13 +59,14 @@ export default function PortfolioItem(props) {
           <img
             style={{
               maxWidth: "18px",
-              margin: "25px"
+              margin: "25px",
             }}
             src={
               props.darkMode
                 ? require("./images/dark-mode-more-info-icon.png")
                 : require("./images/more-info-icon.png")
             }
+            alt="Más Información sobre el proyecto"
           />
         </div>
       </div>

@@ -8,6 +8,7 @@ export default function InformacionPie() {
         className="clickable"
         style={{ maxHeight: "32px" }}
         target="_blank"
+        rel="noopener noreferrer"
       >
         <img
           className="bottom-icon"
@@ -22,7 +23,7 @@ export default function InformacionPie() {
           alignItems: "center",
           alignContent: "center",
           justifyContent: "center",
-          flexWrap: "wrap"
+          flexWrap: "wrap",
         }}
       >
         <div
@@ -34,6 +35,7 @@ export default function InformacionPie() {
             className="clickable"
             style={{ maxHeight: "32px" }}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               className="bottom-icon"
@@ -47,6 +49,7 @@ export default function InformacionPie() {
             className="clickable-text"
             style={{ fontSize: "16px", color: "#f7f7f7" }}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <p style={{ margin: "0px" }}>santiago.carretero@outlook.com</p>
           </a>
@@ -56,6 +59,7 @@ export default function InformacionPie() {
           className="clickable"
           style={{ maxHeight: "32px" }}
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             className="bottom-icon"
@@ -69,6 +73,7 @@ export default function InformacionPie() {
           className="clickable"
           style={{ maxHeight: "32px" }}
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             className="m-bottom-icon"

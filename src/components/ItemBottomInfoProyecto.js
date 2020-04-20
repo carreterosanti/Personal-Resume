@@ -33,6 +33,7 @@ export default function ItemBottomInfoProyecto(props) {
         style={{ width: "25px", height: "25px", marginRight: "5px" }}
         href={props.linkWeb}
         target="_blank"
+        rel="noopener noreferrer"
       >
         {imagenIcon}
       </a>
@@ -41,6 +42,7 @@ export default function ItemBottomInfoProyecto(props) {
         className="small-text-mobile-a clickable-text"
         href={props.linkWeb}
         target="_blank"
+        rel="noopener noreferrer"
       >
         {textLink} {props.titulo}
       </a>

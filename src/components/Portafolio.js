@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PortfolioItem from "./PortfolioItem";
 import "./components-style.css";
-import { listadoProyectosPortfolio, listadoReferencias } from "./data-file.js";
+import { listadoProyectosPortfolio } from "./data-file.js";
 import InfoProyecto from "./InfoProyecto";
 
 export default function Portfolio(props) {
@@ -14,7 +14,7 @@ export default function Portfolio(props) {
   const [desarrolloInfoProyecto, setDesarrolloInfoProyecto] = useState();
   const [
     linkRepositorioInfoProyecto,
-    setlinkRepositorioInfoProyecto
+    setlinkRepositorioInfoProyecto,
   ] = useState();
   const [imagenInfoProyecto, setImagenInfoProyecto] = useState([]);
   const [linkWebInfoProyecto, setLinkWebInfoProyecto] = useState();
@@ -38,7 +38,7 @@ export default function Portfolio(props) {
   }
 
   function controllShowInfoProyecto() {
-    setInfoProyecto(prevState => {
+    setInfoProyecto((prevState) => {
       return !prevState;
     });
   }
@@ -87,7 +87,7 @@ export default function Portfolio(props) {
           justifyContent: "space-around",
           flexWrap: "wrap",
           marginTop: "18px",
-          marginBottom: "32px"
+          marginBottom: "32px",
         }}
       >
         {listadoProyectos}

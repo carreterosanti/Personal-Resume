@@ -11,6 +11,7 @@ export default function CursosItem(props) {
         }
         href={props.linkref}
         target="_blank"
+        rel="noopener noreferrer"
       >
         <p style={{ fontSize: "18px", margin: "10px 0px" }}>
           <strong>{props.titulo}</strong> - {props.plataforma}

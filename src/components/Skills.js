@@ -61,6 +61,7 @@ export default function Skills(props) {
       <img
         src={require("./images/" + element.imgSkill)}
         className="svg-image"
+        alt={"Icono Skill " + element.nombre}
       />
       <p style={{ marginTop: "5px" }}>{element.nombre}</p>
     </div>
