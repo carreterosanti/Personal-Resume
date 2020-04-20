@@ -7,7 +7,7 @@ export default function Skills(props) {
       alt: "Icono Java Lenguaje de Programación",
       nivel: "90",
       color: "#1565C0",
-      nombre: "Java"
+      nombre: "Java",
     },
 
     {
@@ -15,28 +15,28 @@ export default function Skills(props) {
       alt: "Icono Android",
       nivel: "75",
       color: "#3ddc84",
-      nombre: "Android SDK"
+      nombre: "Android SDK",
     },
     {
       imgSkill: "css-icon.png",
       alt: "Icono CSS Lenguaje de Programación",
       nivel: "60",
       color: "#0277BD",
-      nombre: "CSS"
+      nombre: "CSS",
     },
     {
       imgSkill: "react-icon.png",
       alt: "Icono React Lenguaje de Programación",
       nivel: "60",
       color: "#00D8FF",
-      nombre: "React.js"
+      nombre: "React.js",
     },
     {
       imgSkill: "js-icon.png",
       alt: "Icono JavaScript Lenguaje de Programación",
       nivel: "60",
       color: "#F0DB4F",
-      nombre: "JavaScript"
+      nombre: "JavaScript",
     },
     {
       imgSkill: props.darkMode
@@ -45,17 +45,17 @@ export default function Skills(props) {
       alt: "Icono Github",
       nivel: "70",
       color: props.darkMode ? "#F7F7F7" : "#24292E",
-      nombre: "Github"
-    }
+      nombre: "Github",
+    },
   ];
 
-  const iconosSkills = listadoSkill.map(element => (
+  const iconosSkills = listadoSkill.map((element) => (
     <div
       style={{
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        margin: "0px 20px"
+        margin: "0px 20px",
       }}
     >
       <img
@@ -68,7 +68,7 @@ export default function Skills(props) {
 
   return (
     <div className="middle-section">
-      <h2>Tecnologías de Interés</h2>
+      <h2>IT Skills</h2>
       <div
         style={{
           display: "flex",
@@ -76,7 +76,7 @@ export default function Skills(props) {
           alignContent: "space-around",
           justifyContent: "space-around",
           flexWrap: "wrap",
-          marginTop: "25px"
+          marginTop: "25px",
         }}
       >
         {iconosSkills}

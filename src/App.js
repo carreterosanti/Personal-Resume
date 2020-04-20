@@ -24,18 +24,18 @@ function App() {
   }
 
   const setMode = () => {
-    setDarkMode(prevMode => !prevMode);
+    setDarkMode((prevMode) => !prevMode);
   };
 
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <NavBar setDarkMode={setMode} darkMode={darkMode} />
       <Perfil darkMode={darkMode} />
-      <Educacion darkMode={darkMode} />
-      <Skills darkMode={darkMode} />
-      <Certificados darkMode={darkMode} />
-      <Portafolio darkMode={darkMode} />
       <ExperienciaLaboral darkMode={darkMode} />
+      <Portafolio darkMode={darkMode} />
+      <Skills darkMode={darkMode} />
+      <Educacion darkMode={darkMode} />
+      <Certificados darkMode={darkMode} />
       <Cursos darkMode={darkMode} />
       <Intereses darkMode={darkMode} />
       <InformacionPie />

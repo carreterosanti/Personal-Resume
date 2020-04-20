@@ -11,35 +11,30 @@ export default function NavBar(props) {
 
   return (
     <div className="main-nav-bar-div">
-      {console.log()}
       <div className="main-name-div">
         <h1 className="main-name">Santiago Carretero</h1>
-        <div className="contenido-section" style={{ display: "flex" }}>
-          <p>
-            Mar del Plata, Argentina -{" "}
-            {getEdad(fechaNacimientoSantiagoCarretero)} años -{" "}
-            <a
-              href="mailto:santiago.carretero@outlook.com"
-              className="clickable-text"
-              style={
-                props.darkMode
-                  ? { fontSize: "16px", color: "#fafafa" }
-                  : { fontSize: "16px", color: "#333" }
-              }
-            >
-              santiago.carretero@outlook.com
-            </a>
-          </p>
-        </div>
+        <p>
+          Mar del Plata, Argentina - {getEdad(fechaNacimientoSantiagoCarretero)}{" "}
+          años -{" "}
+          <a
+            href="mailto:santiago.carretero@outlook.com"
+            className="clickable-text"
+            style={
+              props.darkMode
+                ? { fontSize: "16px", color: "#fafafa" }
+                : { fontSize: "16px", color: "#333" }
+            }
+          >
+            santiago.carretero@outlook.com
+          </a>
+        </p>
       </div>
-      <div style={{ position: "relative" }}>
-        <img
-          className="profile-image swing"
-          src={require("./images/profile-picture.jpg")}
-          alt="Profile picture."
-          onClick={props.setDarkMode}
-        />
-      </div>
+      <img
+        className="profile-image swing"
+        src={require("./images/profile-picture.jpg")}
+        alt="Profile picture."
+        onClick={props.setDarkMode}
+      />
     </div>
   );
 }
