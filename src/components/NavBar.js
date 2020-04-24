@@ -13,21 +13,19 @@ export default function NavBar(props) {
     <div className="main-nav-bar-div">
       <div className="main-name-div">
         <h1 className="main-name">Santiago Carretero</h1>
-        <p>
-          Mar del Plata, Argentina - {getEdad(fechaNacimientoSantiagoCarretero)}{" "}
-          años -{" "}
-          <a
-            href="mailto:santiago.carretero@outlook.com"
-            className="clickable-text"
-            style={
-              props.darkMode
-                ? { fontSize: "16px", color: "#fafafa" }
-                : { fontSize: "16px", color: "#333" }
-            }
-          >
-            santiago.carretero@outlook.com
-          </a>
-        </p>
+        <p>Mar del Plata, Argentina</p>
+        <p>{getEdad(fechaNacimientoSantiagoCarretero)} años</p>
+        <a
+          href="mailto:santiago.carretero@outlook.com"
+          className="clickable-text"
+          style={
+            props.darkMode
+              ? { fontSize: "16px", color: "#fafafa" }
+              : { fontSize: "16px", color: "#333" }
+          }
+        >
+          santiago.carretero@outlook.com
+        </a>
       </div>
       <img
         className="profile-image swing"
