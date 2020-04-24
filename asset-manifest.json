@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/Personal-Resume/static/css/main.181727c7.chunk.css",
-    "main.js": "/Personal-Resume/static/js/main.4c247fcd.chunk.js",
-    "main.js.map": "/Personal-Resume/static/js/main.4c247fcd.chunk.js.map",
-    "runtime-main.js": "/Personal-Resume/static/js/runtime-main.fe31d1ed.js",
-    "runtime-main.js.map": "/Personal-Resume/static/js/runtime-main.fe31d1ed.js.map",
-    "static/js/2.062c6673.chunk.js": "/Personal-Resume/static/js/2.062c6673.chunk.js",
-    "static/js/2.062c6673.chunk.js.map": "/Personal-Resume/static/js/2.062c6673.chunk.js.map",
+    "main.js": "/Personal-Resume/static/js/main.ac020ec0.chunk.js",
+    "main.js.map": "/Personal-Resume/static/js/main.ac020ec0.chunk.js.map",
+    "runtime-main.js": "/Personal-Resume/static/js/runtime-main.2fb2f14b.js",
+    "runtime-main.js.map": "/Personal-Resume/static/js/runtime-main.2fb2f14b.js.map",
+    "static/css/2.64a99b10.chunk.css": "/Personal-Resume/static/css/2.64a99b10.chunk.css",
+    "static/js/2.9497061c.chunk.js": "/Personal-Resume/static/js/2.9497061c.chunk.js",
+    "static/js/2.9497061c.chunk.js.map": "/Personal-Resume/static/js/2.9497061c.chunk.js.map",
     "index.html": "/Personal-Resume/index.html",
-    "precache-manifest.20e2941054544472b6efffba2e3ce45c.js": "/Personal-Resume/precache-manifest.20e2941054544472b6efffba2e3ce45c.js",
+    "precache-manifest.a39dcb7d1e7c61f5481b17f661e0b258.js": "/Personal-Resume/precache-manifest.a39dcb7d1e7c61f5481b17f661e0b258.js",
     "service-worker.js": "/Personal-Resume/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/Personal-Resume/static/css/2.64a99b10.chunk.css.map",
     "static/css/main.181727c7.chunk.css.map": "/Personal-Resume/static/css/main.181727c7.chunk.css.map",
-    "static/js/2.062c6673.chunk.js.LICENSE": "/Personal-Resume/static/js/2.062c6673.chunk.js.LICENSE",
     "static/media/android-icon.png": "/Personal-Resume/static/media/android-icon.e0fb0b16.png",
     "static/media/angular-icon.png": "/Personal-Resume/static/media/angular-icon.1a632d2b.png",
     "static/media/certificadoIBMModeladoDeSistemasConRational.png": "/Personal-Resume/static/media/certificadoIBMModeladoDeSistemasConRational.29da8487.png",
@@ -24,9 +25,10 @@
     "static/media/vsco-icon.png": "/Personal-Resume/static/media/vsco-icon.34cebfd4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe31d1ed.js",
-    "static/js/2.062c6673.chunk.js",
+    "static/js/runtime-main.2fb2f14b.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.9497061c.chunk.js",
     "static/css/main.181727c7.chunk.css",
-    "static/js/main.4c247fcd.chunk.js"
+    "static/js/main.ac020ec0.chunk.js"
   ]
 }
