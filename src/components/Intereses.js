@@ -49,7 +49,7 @@ export default function Intereses(props) {
       <img
         className="interes-icon"
         src={require("./images/" + element.srcInteresImg)}
-        alt={element.label + " Icon"}
+        alt={element.label}
       />
       <p style={{ margin: "5px 0px", fontSize: "16px" }}>{element.label}</p>
     </div>
