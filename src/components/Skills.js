@@ -4,7 +4,7 @@ export default function Skills(props) {
   const listadoSkill = [
     {
       imgSkill: "java-icon.png",
-      alt: "Icono Java Lenguaje de Programación",
+      alt: "Logo Java Lenguaje de Programación",
       nivel: "90",
       color: "#1565C0",
       nombre: "Java",
@@ -12,40 +12,38 @@ export default function Skills(props) {
 
     {
       imgSkill: "android-icon.png",
-      alt: "Icono Android",
+      alt: "Logo Android",
       nivel: "75",
       color: "#3ddc84",
       nombre: "Android SDK",
     },
     {
       imgSkill: "css-icon.png",
-      alt: "Icono CSS Lenguaje de Programación",
+      alt: "Logo CSS Lenguaje de Programación",
       nivel: "60",
       color: "#0277BD",
       nombre: "CSS",
     },
     {
       imgSkill: "react-icon.png",
-      alt: "Icono React Lenguaje de Programación",
+      alt: "Logo React Lenguaje de Programación",
       nivel: "60",
       color: "#00D8FF",
       nombre: "React.js",
     },
     {
       imgSkill: "js-icon.png",
-      alt: "Icono JavaScript Lenguaje de Programación",
+      alt: "Logo JavaScript Lenguaje de Programación",
       nivel: "60",
       color: "#F0DB4F",
       nombre: "JavaScript",
     },
     {
-      imgSkill: props.darkMode
-        ? "dark-mode-github-icon.png"
-        : "github-icon.png",
-      alt: "Icono Github",
-      nivel: "70",
-      color: props.darkMode ? "#F7F7F7" : "#24292E",
-      nombre: "Github",
+      imgSkill: "vue-icon.png",
+      alt: "Logo Vue.js",
+      nivel: "60",
+      color: "#F0DB4F",
+      nombre: "Vue.js",
     },
   ];
 

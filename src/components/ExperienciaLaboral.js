@@ -7,6 +7,34 @@ export default function ExperienciaLaboral(props) {
       <div className="contenido-section">
         <div className="flex-start-center">
           <p style={{ fontSize: "18px" }}>
+            <strong>Frontend Developer</strong> /{" "}
+            <a
+              className={
+                props.darkMode
+                  ? "dark-mode clickable-text"
+                  : "light-mode clickable-text"
+              }
+              href="https://www.qubikdigital.com/"
+              target="_blank"
+            >
+              Qubik Digital
+            </a>
+          </p>
+        </div>
+        <p
+          style={{
+            marginTop: "-12px",
+            marginLeft: "6px",
+            color: "grey",
+            marginBottom: "0px",
+          }}
+        >
+          Mayo 2020 - Actualidad
+        </p>
+      </div>
+      <div className="contenido-section">
+        <div className="flex-start-center">
+          <p style={{ fontSize: "18px" }}>
             <strong>Freelance Developer</strong> / Sincronización Sistema de
             Gestión y Tienda Online
           </p>
