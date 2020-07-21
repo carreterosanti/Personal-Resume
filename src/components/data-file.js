@@ -287,7 +287,7 @@ export const wavesRKIntroCalculoDiferencial = [
   {
     d: "m 203 0 c -70,80 -380,30 0,200",
     idGradiente: "gradiente15",
-    coloresGradientes: ["#002282", "#0648b3", "#5873e6"],
+    coloresGradientes: ["#002282", "#0648b3"],
   },
   {
     d: "m 203 30 c -100,40 -100,30  0,80",
