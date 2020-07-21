@@ -124,16 +124,16 @@ export const listadoMaterias = [
     condicion: "Aprobada pasada",
   },
   {
+    nombreMateria: "Introducción al Cálculo Diferencial e Integral",
+    condicion: "Aprobada pasada",
+  },
+  {
     nombreMateria: "Teoría de la Información",
     condicion: "Final restante",
   },
   {
     nombreMateria: "Diseño de Compiladores I",
     condicion: "Final restante",
-  },
-  {
-    nombreMateria: "Introducción al Cálculo Diferencial e Integral",
-    condicion: "Cursada restante",
   },
 ];
 
@@ -185,10 +185,6 @@ export const listadoReferencias = [
   {
     nombreMateria: "Final pendiente",
     condicion: "Final restante",
-  },
-  {
-    nombreMateria: "Cursada pendiente",
-    condicion: "Cursada restante",
   },
 ];
 
@@ -284,6 +280,19 @@ export const wavesGestureCalculator = [
     d: "m 203 0 c -160,20 -350,120 0,200 ",
     idGradiente: "gradiente14",
     coloresGradientes: ["#CAE8D5", "#3B6978", "#204051"],
+  },
+];
+
+export const wavesRKIntroCalculoDiferencial = [
+  {
+    d: "m 203 0 c -70,80 -380,30 0,200",
+    idGradiente: "gradiente15",
+    coloresGradientes: ["#002282", "#0648b3", "#5873e6"],
+  },
+  {
+    d: "m 203 30 c -100,40 -100,30  0,80",
+    idGradiente: "gradiente16",
+    coloresGradientes: ["#ff6858", "#eb2d2d", "#b00004"],
   },
 ];
 
@@ -430,7 +439,29 @@ export const portfolioSincronizacionSistemaGestionTiendaOnline = {
   linkWeb: "",
 };
 
+export const portfolioRKIntroCalculoDiferencial = {
+  titulo: "Implementación Método Numérico Runge-Kutta",
+  urlTecnologias: ["vue-icon.png", "js-icon.png"],
+  descripcion:
+    "Implementación del método numérico Runge-Kutta y visualización de resultados, aplicado a sistema de ecuaciones diferenciales.",
+  descripcionExtendida: [
+    "Este proyecto corresponde a la sección de promoción del segundo trabajo práctico especial de la materia “Introducción al Cálculo Diferencial e Integral” de la carrera de Ingeniería de Sistemas de la una Universidad Nacional del Centro de la Provincia de Buenos Aires. El mismo consta en la implementación del método numérico Runge Kutta, con el objetivo de verificar en forma numérica los resultados obtenidos en el mencionado segundo trabajo práctico especial.",
+    "La herramienta permite visualizar las tablas y gráficos obtenidos de aplicar el método numérico a los tres escenarios analizados: “Vibraciones Libres”, “Vibraciones Libres Amortiguadas” y “Vibraciones Forzadas Amortiguadas”. ",
+  ],
+  participacion: [
+    "Mi participación dentro del proyecto comprendió el desarrollo íntegro del mismo.",
+  ],
+  desarrollo:
+    "El desarrollo del proyecto fue realizado utilizando: Vue.js, BootstrapVue y vue-chartjs. Por otro lado, el hosting del sitio se realiza mediante la plataforma de Google: Firebase.",
+  linkRepositorio:
+    "https://github.com/carreterosanti/unicen-rk4-sistema-ecuaciones",
+  urlImagenes: ["./rk4-unicen-screenshot.png"],
+  wave: wavesRKIntroCalculoDiferencial,
+  linkWeb: "https://unicen-rk4-sistema-ecuaciones.web.app/",
+};
+
 export const listadoProyectosPortfolio = [
+  portfolioRKIntroCalculoDiferencial,
   portfolioSincronizacionSistemaGestionTiendaOnline,
   portfolioGestureCalculator,
   portfolioRedisenoWebBacMono,
