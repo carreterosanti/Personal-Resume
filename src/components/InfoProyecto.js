@@ -3,7 +3,7 @@ import Modal from "./Modal";
 import ItemBottomInfoProyecto from "./ItemBottomInfoProyecto";
 
 export default function InfoProyecto(props) {
-  const imagenes = props.imagen.map(element => {
+  const imagenes = props.imagen.map((element) => {
     return (
       <img
         style={{ maxHeight: "500px", marginRight: "10px", maxWidth: "100%" }}
@@ -13,10 +13,10 @@ export default function InfoProyecto(props) {
     );
   });
 
-  const parrafoPorElementoDescripcion = props.descripcion.map(element => (
+  const parrafoPorElementoDescripcion = props.descripcion.map((element) => (
     <p className="none-top-margin">{element}</p>
   ));
-  const parrafoPorElementoParticipacion = props.participacion.map(element => (
+  const parrafoPorElementoParticipacion = props.participacion.map((element) => (
     <p className="small-top-margin">{element}</p>
   ));
   const parrafoParticipacion =
