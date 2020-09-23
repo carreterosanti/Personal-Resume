@@ -10,7 +10,7 @@ export default function InformacionPie() {
     >
       <div
         className="bottom-section"
-        style={{ maxWidth: "1440px", margin: "auto" }}
+        style={{ maxWidth: "1440px", margin: "auto", padding: "1rem 2rem" }}
       >
         <a
           href="https://drive.google.com/file/d/14Hl7srjXj6DgEZdZ1g_GXow7YXEojxpQ/view?usp=sharing"
@@ -63,34 +63,50 @@ export default function InformacionPie() {
               <p style={{ margin: "0px" }}>santiago.carretero@outlook.com</p>
             </a>
           </div>
-          <a
-            href="https://www.linkedin.com/in/santiagocarretero"
-            className="clickable"
-            style={{ maxHeight: "32px" }}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="bottom-icon"
-              src={require("./images/linkedIn-icon.png")}
-              alt="LinkedIn"
-              title="LinkedIn"
-            />
-          </a>
-          <a
-            href="https://vsco.co/carreterosanti"
-            className="clickable"
-            style={{ maxHeight: "32px" }}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="m-bottom-icon"
-              src={require("./images/vsco-icon.png")}
-              alt="VSCO"
-              title="VSCO"
-            />
-          </a>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/santiagocarretero"
+              className="clickable"
+              style={{ maxHeight: "32px" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="bottom-icon"
+                src={require("./images/linkedIn-icon.png")}
+                alt="LinkedIn"
+                title="LinkedIn"
+              />
+            </a>
+            <a
+              href="https://github.com/carreterosanti/"
+              className="clickable"
+              style={{ maxHeight: "32px" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="bottom-icon"
+                src={require("./images/dark-mode-github-icon.png")}
+                alt="GitHub"
+                title="GitHub"
+              />
+            </a>
+            <a
+              href="https://vsco.co/carreterosanti"
+              className="clickable"
+              style={{ maxHeight: "32px" }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="bottom-icon"
+                src={require("./images/vsco-icon.png")}
+                alt="VSCO"
+                title="VSCO"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
