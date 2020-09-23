@@ -28,16 +28,26 @@ function App() {
   };
 
   return (
-    <div className={darkMode ? "dark-mode" : "light-mode"}>
-      <NavBar setDarkMode={setMode} darkMode={darkMode} />
-      <Perfil darkMode={darkMode} />
-      <ExperienciaLaboral darkMode={darkMode} />
-      <Portafolio darkMode={darkMode} />
-      <Skills darkMode={darkMode} />
-      <Educacion darkMode={darkMode} />
-      <Certificados darkMode={darkMode} />
-      <Cursos darkMode={darkMode} />
-      <Intereses darkMode={darkMode} />
+    <div
+      className={darkMode ? "dark-mode" : "light-mode"}
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "column",
+        alignItems: "center",
+      }}
+    >
+      <div style={{ maxWidth: "1440px" }}>
+        <NavBar setDarkMode={setMode} darkMode={darkMode} />
+        <Perfil darkMode={darkMode} />
+        <ExperienciaLaboral darkMode={darkMode} />
+        <Portafolio darkMode={darkMode} />
+        <Skills darkMode={darkMode} />
+        <Educacion darkMode={darkMode} />
+        <Certificados darkMode={darkMode} />
+        <Cursos darkMode={darkMode} />
+        <Intereses darkMode={darkMode} />
+      </div>
       <InformacionPie />
     </div>
   );
