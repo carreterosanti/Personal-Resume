@@ -7,6 +7,12 @@ export default function Cursos(props) {
       <h2>Cursos</h2>
       <div className="contenido-section">
         <CursosItem
+          titulo="Introduction to “Spartacus”"
+          plataforma="openSAP"
+          darkMode={props.darkMode}
+          linkref="https://open.sap.com/courses/sparta0"
+        />
+        <CursosItem
           titulo="The Vue Bootcamp"
           plataforma="Scrimba"
           darkMode={props.darkMode}
