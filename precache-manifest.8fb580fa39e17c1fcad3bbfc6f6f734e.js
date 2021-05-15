@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e626609a8b960609f9366828daef3d49",
+    "revision": "14c6747a50fbc065f8f8c0e6f67ab7d6",
     "url": "/Personal-Resume/index.html"
   },
   {
-    "revision": "4e4850e1a0bf42b861af",
+    "revision": "4fb018b0c4806b4237c2",
     "url": "/Personal-Resume/static/css/main.504bb39a.chunk.css"
   },
   {
-    "revision": "b9a0577f536bd65beced",
-    "url": "/Personal-Resume/static/js/2.899b398e.chunk.js"
+    "revision": "770c95a8e4db573dce2d",
+    "url": "/Personal-Resume/static/js/2.b33bc1a0.chunk.js"
   },
   {
-    "revision": "4e4850e1a0bf42b861af",
-    "url": "/Personal-Resume/static/js/main.018d7fbf.chunk.js"
+    "revision": "4fb018b0c4806b4237c2",
+    "url": "/Personal-Resume/static/js/main.1248b545.chunk.js"
   },
   {
     "revision": "2e32689c6960b28f20d7",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7cb20968686d6115c18510784a279368",
     "url": "/Personal-Resume/static/media/reemplazo-de-smartphones.7cb20968.png"
+  },
+  {
+    "revision": "b446ca5a397c1ef6fb94cd02c4e94335",
+    "url": "/Personal-Resume/static/media/sass.b446ca5a.svg"
   },
   {
     "revision": "34cebfd4b532e89e8c3b13ffcad7963e",
