@@ -2,12 +2,12 @@ import React from "react";
 import "./components-style.css";
 
 export default function NavBar(props) {
-  const fechaNacimientoSantiagoCarretero = new Date(1995, 12, 26);
-  function getEdad(fechaNacimiento) {
-    var diferenciaMilisegundos = Date.now() - fechaNacimiento.getTime();
-    var edad = new Date(diferenciaMilisegundos);
-    return Math.abs(edad.getUTCFullYear() - 1970);
-  }
+  // const fechaNacimientoSantiagoCarretero = new Date(1995, 12, 26);
+  // function getEdad(fechaNacimiento) {
+  //   var diferenciaMilisegundos = Date.now() - fechaNacimiento.getTime();
+  //   var edad = new Date(diferenciaMilisegundos);
+  //   return Math.abs(edad.getUTCFullYear() - 1970);
+  // }
 
   return (
     <div className="main-nav-bar-div">

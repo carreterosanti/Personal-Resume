@@ -16,6 +16,7 @@ export default function ExperienciaLaboral(props) {
               }
               href="https://www.qubikdigital.com/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Qubik Digital
             </a>

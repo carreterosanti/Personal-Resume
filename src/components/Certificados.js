@@ -26,6 +26,29 @@ export default function Certificados(props) {
       <div className="contenido-section">
         <div className="flex-start-center">
           <p style={{ fontSize: "18px" }}>
+            <strong>Introduction to "Spartacus"</strong> - openSAP
+          </p>
+          <a
+            href="https://open.sap.com/verify/xuden-kocod-pizoz-borys-gepub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="icono-side-right clickable"
+              src={require(props.darkMode
+                ? "./images/dark-mode-certificate-icon.png"
+                : "./images/certificate-icon.png")}
+              alt="Url Certificado"
+            />
+          </a>
+        </div>
+        <p style={{ marginTop: "-12px", marginLeft: "6px", color: "grey" }}>
+          Agosto de 2020
+        </p>
+      </div>
+      <div className="contenido-section">
+        <div className="flex-start-center">
+          <p style={{ fontSize: "18px" }}>
             <strong>
               Modelado de Sistemas Orientados a Objeto con Rational
             </strong>{" "}
@@ -45,6 +68,7 @@ export default function Certificados(props) {
           Tandil, Agosto de 2016
         </p>
       </div>
+
       <div
         className={props.darkMode ? "dark-break-line" : "light-break-line"}
       ></div>
