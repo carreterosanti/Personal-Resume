@@ -129,7 +129,7 @@ export const listadoMaterias = [
   },
   {
     nombreMateria: "Teoría de la Información",
-    condicion: "Final restante",
+    condicion: "Aprobada pasada",
   },
   {
     nombreMateria: "Diseño de Compiladores I",

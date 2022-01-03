@@ -26,6 +26,59 @@ export default function ExperienciaLaboral(props) {
           style={{
             marginTop: "-12px",
             marginLeft: "6px",
+          }}
+        >
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            Desarrollo web en Angular de e-commerce con Spartacus en SAP
+            Commerce Cloud.
+          </p>
+
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            Angular:
+          </p>
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            - B2C SAP e-commerce, Spartacus Storefront (Multi store): Grupo de
+            marcas de Yáneken 🇨🇱
+          </p>
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            - B2C SAP e-commerce, Spartacus Storefront: Tienda Molinos 🇦🇷
+          </p>
+          <p>Vue.js: </p>
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            - B2B SAP e-commerce: Martinez & Valdivieso 🇨🇱{" "}
+          </p>
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            - CRM Salesforce: Frávega 🇦🇷
+          </p>
+        </p>
+        <p
+          style={{
+            marginTop: "-12px",
+            marginLeft: "6px",
             color: "grey",
             marginBottom: "0px",
           }}

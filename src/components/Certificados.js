@@ -26,6 +26,27 @@ export default function Certificados(props) {
       <div className="contenido-section">
         <div className="flex-start-center">
           <p style={{ fontSize: "18px" }}>
+            <strong>CMS in "Spartacus"</strong> - openSAP
+          </p>
+          <a
+            href="https://open.sap.com/verify/xesiz-ropiv-cepal-buked-duvep"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="icono-side-right clickable"
+              src={require(props.darkMode
+                ? "./images/dark-mode-certificate-icon.png"
+                : "./images/certificate-icon.png")}
+              alt="Url Certificado"
+            />
+          </a>
+        </div>
+        <p style={{ marginTop: "-12px", marginLeft: "6px", color: "grey" }}>
+          Mayo de 2021
+        </p>
+        <div className="flex-start-center">
+          <p style={{ fontSize: "18px" }}>
             <strong>Introduction to "Spartacus"</strong> - openSAP
           </p>
           <a
