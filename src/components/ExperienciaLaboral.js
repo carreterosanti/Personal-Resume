@@ -49,6 +49,22 @@ export default function ExperienciaLaboral(props) {
               marginTop: "-8px",
             }}
           >
+            - B2B SAP e-commerce, Spartacus Storefront: Clientes Tienda Molinos
+            🇦🇷
+          </p>
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            - B2C SAP e-commerce, Spartacus Storefront (Multi store): Cintac 🇨🇱
+            - Tupemesa 🇵🇪
+          </p>
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
             - B2C SAP e-commerce, Spartacus Storefront (Multi store): Grupo de
             marcas de Yáneken 🇨🇱
           </p>
