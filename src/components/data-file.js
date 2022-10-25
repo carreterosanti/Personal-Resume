@@ -133,7 +133,7 @@ export const listadoMaterias = [
   },
   {
     nombreMateria: "Diseño de Compiladores I",
-    condicion: "Final restante",
+    condicion: "Aprobada pasada",
   },
 ];
 
