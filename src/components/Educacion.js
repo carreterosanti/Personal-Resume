@@ -6,7 +6,7 @@ export default function Educacion(props) {
   const [showListadoMaterias, setShowListadoMaterias] = useState(false);
 
   function controllShowListadoMaterias() {
-    setShowListadoMaterias(prevState => {
+    setShowListadoMaterias((prevState) => {
       return !prevState;
     });
   }
@@ -40,10 +40,10 @@ export default function Educacion(props) {
             marginTop: "-12px",
             marginLeft: "6px",
             color: "grey",
-            marginBottom: "0px"
+            marginBottom: "0px",
           }}
         >
-          2014 - presente
+          2014 - 2022
         </p>
 
         <div className="flex-start-center">

@@ -7,7 +7,67 @@ export default function ExperienciaLaboral(props) {
       <div className="contenido-section">
         <div className="flex-start-center">
           <p style={{ fontSize: "18px" }}>
-            <strong>Frontend Developer</strong> /{" "}
+            <strong>Front-end Technical Leader</strong> /{" "}
+            <a
+              className={
+                props.darkMode
+                  ? "dark-mode clickable-text"
+                  : "light-mode clickable-text"
+              }
+              href="https://www.qubikdigital.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Senovo IT
+            </a>
+          </p>
+        </div>
+        <p
+          style={{
+            marginTop: "-12px",
+            marginLeft: "6px",
+          }}
+        >
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            Lider técnico frontend en Angular de e-commerce con SAP Commerce
+            Composable Storefront (a.k.a. SAP Spartacus).
+          </p>
+
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            Angular:
+          </p>
+          <p
+            style={{
+              marginTop: "-8px",
+            }}
+          >
+            - B2C SAP e-commerce, SAP Composable Storefront (a.k.a. Spartacus):
+            Industria Financiera 🇪🇸
+          </p>
+        </p>
+        <p
+          style={{
+            marginTop: "-12px",
+            marginLeft: "6px",
+            color: "grey",
+            marginBottom: "0px",
+          }}
+        >
+          Mayo 2023 - Noviembre 2023
+        </p>
+      </div>
+      <div className="contenido-section">
+        <div className="flex-start-center">
+          <p style={{ fontSize: "18px" }}>
+            <strong>Front-end Developer</strong> /{" "}
             <a
               className={
                 props.darkMode
@@ -33,8 +93,8 @@ export default function ExperienciaLaboral(props) {
               marginTop: "-8px",
             }}
           >
-            Desarrollo web en Angular de e-commerce con Spartacus en SAP
-            Commerce Cloud.
+            Desarrollo web en Angular de e-commerce con SAP Commerce Composable
+            Storefront (a.k.a. SAP Spartacus).
           </p>
 
           <p
@@ -107,7 +167,7 @@ export default function ExperienciaLaboral(props) {
             marginBottom: "0px",
           }}
         >
-          Mayo 2020 - Actualidad
+          Mayo 2020 - Mayo 2023
         </p>
       </div>
       <div className="contenido-section">
