@@ -10,18 +10,11 @@ export default function Skills(props) {
       nombre: "Angular",
     },
     {
-      imgSkill: "vue-icon.png",
-      alt: "Logo Vue.js Framework de Javascript",
-      nivel: "60",
-      color: "#F0DB4F",
-      nombre: "Vue.js",
-    },
-    {
-      imgSkill: "react-icon.png",
-      alt: "Logo React Librería de Javascript",
+      imgSkill: "typescript.png",
+      alt: "Logo Typescript",
       nivel: "60",
       color: "#00D8FF",
-      nombre: "React.js",
+      nombre: "Typescript",
     },
     {
       imgSkill: "sass.svg",
@@ -31,18 +24,19 @@ export default function Skills(props) {
       nombre: "Sass",
     },
     {
-      imgSkill: "android-icon.png",
-      alt: "Logo Android",
+      imgSkill: "rxjs.svg",
+      alt: "Logo RxJS",
+      nivel: "60",
+      color: "#F0DB4F",
+      nombre: "RxJS",
+    },
+
+    {
+      imgSkill: "ngrx.svg",
+      alt: "Logo NgRx",
       nivel: "75",
       color: "#3ddc84",
-      nombre: "Android SDK",
-    },
-    {
-      imgSkill: "java-icon.png",
-      alt: "Logo Java Lenguaje de Programación",
-      nivel: "90",
-      color: "#1565C0",
-      nombre: "Java",
+      nombre: "NgRx",
     },
   ];
 

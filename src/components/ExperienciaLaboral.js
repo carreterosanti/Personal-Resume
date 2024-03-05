@@ -50,7 +50,10 @@ export default function ExperienciaLaboral(props) {
             }}
           >
             - B2C SAP e-commerce, SAP Composable Storefront (a.k.a. Spartacus):
-            Industria Financiera 🇪🇸
+            Industria Financiera{" "}
+            <span role="img" aria-label="España">
+              🇪🇸
+            </span>
           </p>
         </p>
         <p
@@ -110,7 +113,10 @@ export default function ExperienciaLaboral(props) {
             }}
           >
             - B2C SAP e-commerce, Spartacus Storefront (Multi store): Grupo
-            Piero 🇦🇷
+            Piero{" "}
+            <span role="img" aria-label="Argentina">
+              🇦🇷
+            </span>
           </p>
           <p
             style={{
@@ -118,15 +124,23 @@ export default function ExperienciaLaboral(props) {
             }}
           >
             - B2B SAP e-commerce, Spartacus Storefront: Clientes Tienda Molinos
-            🇦🇷
+            <span role="img" aria-label="Argentina">
+              🇦🇷
+            </span>
           </p>
           <p
             style={{
               marginTop: "-8px",
             }}
           >
-            - B2C SAP e-commerce, Spartacus Storefront (Multi store): Cintac 🇨🇱
-            - Tupemesa 🇵🇪
+            - B2C SAP e-commerce, Spartacus Storefront (Multi store): Cintac{" "}
+            <span role="img" aria-label="Chile">
+              🇨🇱
+            </span>
+            - Tupemesa{" "}
+            <span role="img" aria-label="Perú">
+              🇵🇪
+            </span>
           </p>
           <p
             style={{
@@ -134,14 +148,20 @@ export default function ExperienciaLaboral(props) {
             }}
           >
             - B2C SAP e-commerce, Spartacus Storefront (Multi store): Grupo de
-            marcas de Yáneken 🇨🇱
+            marcas de Yáneken{" "}
+            <span role="img" aria-label="Chile">
+              🇨🇱
+            </span>
           </p>
           <p
             style={{
               marginTop: "-8px",
             }}
           >
-            - B2C SAP e-commerce, Spartacus Storefront: Tienda Molinos 🇦🇷
+            - B2C SAP e-commerce, Spartacus Storefront: Tienda Molinos{" "}
+            <span role="img" aria-label="Argentina">
+              🇦🇷
+            </span>
           </p>
           <p>Vue.js: </p>
           <p
@@ -149,14 +169,20 @@ export default function ExperienciaLaboral(props) {
               marginTop: "-8px",
             }}
           >
-            - B2B SAP e-commerce: Martinez & Valdivieso 🇨🇱{" "}
+            - B2B SAP e-commerce: Martinez & Valdivieso{" "}
+            <span role="img" aria-label="Chile">
+              🇨🇱
+            </span>{" "}
           </p>
           <p
             style={{
               marginTop: "-8px",
             }}
           >
-            - CRM Salesforce: Frávega 🇦🇷
+            - CRM Salesforce: Frávega{" "}
+            <span role="img" aria-label="Argentina">
+              🇦🇷
+            </span>
           </p>
         </p>
         <p

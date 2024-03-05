@@ -26,6 +26,27 @@ export default function Certificados(props) {
       <div className="contenido-section">
         <div className="flex-start-center">
           <p style={{ fontSize: "18px" }}>
+            <strong>Spartacus B2B Commerce Organization</strong> - openSAP
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1F8l14pCXucM-iDD5WArSifuvOLVFPpj4/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="icono-side-right clickable"
+              src={require(props.darkMode
+                ? "./images/dark-mode-certificate-icon.png"
+                : "./images/certificate-icon.png")}
+              alt="Url Certificado"
+            />
+          </a>
+        </div>
+        <p style={{ marginTop: "-12px", marginLeft: "6px", color: "grey" }}>
+          Enero de 2024
+        </p>
+        <div className="flex-start-center">
+          <p style={{ fontSize: "18px" }}>
             <strong>CMS in "Spartacus"</strong> - openSAP
           </p>
           <a
@@ -47,6 +68,28 @@ export default function Certificados(props) {
         </p>
         <div className="flex-start-center">
           <p style={{ fontSize: "18px" }}>
+            <strong>Routing in "Spartacus"</strong> - openSAP
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1arxuZGp_HQajIr372MhZd1fRSKnY4wLn/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="icono-side-right clickable"
+              src={require(props.darkMode
+                ? "./images/dark-mode-certificate-icon.png"
+                : "./images/certificate-icon.png")}
+              alt="Url Certificado"
+            />
+          </a>
+        </div>
+        <p style={{ marginTop: "-12px", marginLeft: "6px", color: "grey" }}>
+          Octubre de 2020
+        </p>
+
+        <div className="flex-start-center">
+          <p style={{ fontSize: "18px" }}>
             <strong>Introduction to "Spartacus"</strong> - openSAP
           </p>
           <a
@@ -64,7 +107,7 @@ export default function Certificados(props) {
           </a>
         </div>
         <p style={{ marginTop: "-12px", marginLeft: "6px", color: "grey" }}>
-          Agosto de 2020
+          Octubre de 2020
         </p>
       </div>
       <div className="contenido-section">
