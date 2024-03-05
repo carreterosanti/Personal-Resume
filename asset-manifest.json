@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Personal-Resume/static/css/main.504bb39a.chunk.css",
-    "main.js": "/Personal-Resume/static/js/main.b86b719b.chunk.js",
-    "main.js.map": "/Personal-Resume/static/js/main.b86b719b.chunk.js.map",
+    "main.js": "/Personal-Resume/static/js/main.83351d79.chunk.js",
+    "main.js.map": "/Personal-Resume/static/js/main.83351d79.chunk.js.map",
     "runtime-main.js": "/Personal-Resume/static/js/runtime-main.2fb2f14b.js",
     "runtime-main.js.map": "/Personal-Resume/static/js/runtime-main.2fb2f14b.js.map",
     "static/js/2.b33bc1a0.chunk.js": "/Personal-Resume/static/js/2.b33bc1a0.chunk.js",
     "static/js/2.b33bc1a0.chunk.js.map": "/Personal-Resume/static/js/2.b33bc1a0.chunk.js.map",
     "index.html": "/Personal-Resume/index.html",
-    "precache-manifest.77f9d2512fab74f54b4cac183bf344d7.js": "/Personal-Resume/precache-manifest.77f9d2512fab74f54b4cac183bf344d7.js",
+    "precache-manifest.df3e500b4a41108728bd19b01bb31862.js": "/Personal-Resume/precache-manifest.df3e500b4a41108728bd19b01bb31862.js",
     "service-worker.js": "/Personal-Resume/service-worker.js",
     "static/css/main.504bb39a.chunk.css.map": "/Personal-Resume/static/css/main.504bb39a.chunk.css.map",
     "static/media/android-icon.png": "/Personal-Resume/static/media/android-icon.e0fb0b16.png",
@@ -16,17 +16,20 @@
     "static/media/certificadoIBMModeladoDeSistemasConRational.png": "/Personal-Resume/static/media/certificadoIBMModeladoDeSistemasConRational.29da8487.png",
     "static/media/java-fx-icon.png": "/Personal-Resume/static/media/java-fx-icon.c1323353.png",
     "static/media/js-icon.png": "/Personal-Resume/static/media/js-icon.82f4b91e.png",
+    "static/media/ngrx.svg": "/Personal-Resume/static/media/ngrx.957b026a.svg",
     "static/media/profile-picture.jpg": "/Personal-Resume/static/media/profile-picture.c3f60ac7.jpg",
     "static/media/react-icon.png": "/Personal-Resume/static/media/react-icon.47ce6e77.png",
     "static/media/redesign-web-bac-mono.png": "/Personal-Resume/static/media/redesign-web-bac-mono.3f72acd2.png",
     "static/media/reemplazo-de-smartphones.png": "/Personal-Resume/static/media/reemplazo-de-smartphones.7cb20968.png",
+    "static/media/rxjs.svg": "/Personal-Resume/static/media/rxjs.f7177acb.svg",
     "static/media/sass.svg": "/Personal-Resume/static/media/sass.b446ca5a.svg",
+    "static/media/typescript.png": "/Personal-Resume/static/media/typescript.54a24310.png",
     "static/media/vsco-icon.png": "/Personal-Resume/static/media/vsco-icon.34cebfd4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2fb2f14b.js",
     "static/js/2.b33bc1a0.chunk.js",
     "static/css/main.504bb39a.chunk.css",
-    "static/js/main.b86b719b.chunk.js"
+    "static/js/main.83351d79.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "628f0e7ccae61ca90292c4025ccd1802",
+    "revision": "d0cbe67a6195796d1c090ab49a642ad2",
     "url": "/Personal-Resume/index.html"
   },
   {
-    "revision": "bce66e668f056c73a4f7",
+    "revision": "3536634290d801910b89",
     "url": "/Personal-Resume/static/css/main.504bb39a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Resume/static/js/2.b33bc1a0.chunk.js"
   },
   {
-    "revision": "bce66e668f056c73a4f7",
-    "url": "/Personal-Resume/static/js/main.b86b719b.chunk.js"
+    "revision": "3536634290d801910b89",
+    "url": "/Personal-Resume/static/js/main.83351d79.chunk.js"
   },
   {
     "revision": "2e32689c6960b28f20d7",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Resume/static/media/js-icon.82f4b91e.png"
   },
   {
+    "revision": "957b026a8eefecda88a21ed25c61d21e",
+    "url": "/Personal-Resume/static/media/ngrx.957b026a.svg"
+  },
+  {
     "revision": "c3f60ac7dec5f78492d24c0740f757e8",
     "url": "/Personal-Resume/static/media/profile-picture.c3f60ac7.jpg"
   },
@@ -56,8 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Personal-Resume/static/media/reemplazo-de-smartphones.7cb20968.png"
   },
   {
+    "revision": "f7177acbd09a43ff3b89f6a220e42bc9",
+    "url": "/Personal-Resume/static/media/rxjs.f7177acb.svg"
+  },
+  {
     "revision": "b446ca5a397c1ef6fb94cd02c4e94335",
     "url": "/Personal-Resume/static/media/sass.b446ca5a.svg"
+  },
+  {
+    "revision": "54a24310f75e8c5b77a88f60776ae4c3",
+    "url": "/Personal-Resume/static/media/typescript.54a24310.png"
   },
   {
     "revision": "34cebfd4b532e89e8c3b13ffcad7963e",
