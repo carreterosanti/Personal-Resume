@@ -14,11 +14,11 @@ export default function ExperienciaLaboral(props) {
                   ? "dark-mode clickable-text"
                   : "light-mode clickable-text"
               }
-              href="https://www.qubikdigital.com/"
+              href="https://www.accenture.com/es-es"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Senovo IT
+              Accenture España (Contractor)
             </a>
           </p>
         </div>
